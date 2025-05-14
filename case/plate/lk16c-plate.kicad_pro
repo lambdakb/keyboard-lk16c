@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.5,
-          "width": 2.55
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -58,28 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|56515000|53481600|db0b768c-3c91-4d22-be06-666c4522bf0a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|56871700|95250000|e0f47fe0-c9d2-48a3-8d48-3da50a17b9f0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|66953300|95250000|756bf9b8-d6cb-4a8b-a2df-320d270f19cc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|75921700|95250000|8776e287-8568-4b5c-9100-721fc4a3d074|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|54673500|101282500|d4ca9f29-b899-41bd-8ba9-fd21520f47d9|2e630f28-6e77-48d1-8607-9fcd80466cf4",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -87,9 +66,9 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -124,13 +103,13 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -482,14 +461,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "LKBD_Connectors",
-      "LKBD_Connector"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lk16c-pcb.kicad_pro",
+    "filename": "lk16c-plate.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -666,6 +642,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
@@ -673,20 +655,14 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
@@ -697,14 +673,20 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Footprint",
-          "name": "JLC",
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC",
           "show": true
         },
         {
           "group_by": false,
-          "label": "JLCPCB Position Offset",
-          "name": "JLCPosOffset",
+          "label": "JLCPCB Footprint",
+          "name": "JLC",
           "show": true
         },
         {
@@ -715,26 +697,8 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "label": "JLCPCB Position Offset",
+          "name": "JLCPosOffset",
           "show": true
         },
         {
@@ -769,28 +733,7 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [
-        {
-          "name": "JLC",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "JLCPosOffset",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "JLCRotOffset",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "LCSC",
-          "url": false,
-          "visible": false
-        }
-      ],
+      "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,

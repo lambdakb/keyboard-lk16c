@@ -2078,7 +2078,7 @@
 			(net 24 "Net-(D17-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "04ad66c6-815d-4545-93eb-d72247142f59")
+			(uuid "c3fcebb2-fc69-4523-a021-0f23c70b662b")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -2099,7 +2099,7 @@
 			(net 23 "/COL4")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "78310010-4637-4ee1-81b7-7322d1648008")
+			(uuid "bf5ead82-864e-43c3-a742-44585b56aa32")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -2837,7 +2837,7 @@
 			(net 10 "Net-(D8-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "54c00e24-c4f8-41aa-bbbb-39acf7cc7dfb")
+			(uuid "3ffa57d9-c2e1-4ed5-8d06-83914db16642")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -2858,7 +2858,7 @@
 			(net 23 "/COL4")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "871e4fea-e8b7-41f5-925a-93b45432c56f")
+			(uuid "0905b022-e903-40d0-9aa0-6176462d46f9")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -3596,7 +3596,7 @@
 			(net 17 "Net-(D13-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "5192bbcc-a3e9-479f-b0c0-8ed0a108cdb6")
+			(uuid "a07d86f2-bed9-4b35-bbb0-41b7d39b1e6f")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -3617,7 +3617,7 @@
 			(net 20 "/COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "89a80b26-0ac0-4c01-b4c5-06b9d88584d7")
+			(uuid "93899770-f56f-40a7-b915-b99daaf868b9")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -4355,7 +4355,7 @@
 			(net 9 "Net-(D7-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2ca9a6e9-c723-4bff-ab97-d33c21c8c1ed")
+			(uuid "7484f21e-1c9f-480f-8828-3dfc26f80c0b")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -4376,7 +4376,7 @@
 			(net 22 "/COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "f54c77c5-d82b-46a1-a2e6-85c6e4b018a2")
+			(uuid "03005541-354d-45c6-a35e-8cdf08ee2f66")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -5114,7 +5114,7 @@
 			(net 15 "Net-(D11-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "fb20df01-69b2-4a61-8b26-1454a847820e")
+			(uuid "265dccef-744a-4045-b877-a1e38918779a")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -5135,7 +5135,7 @@
 			(net 22 "/COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "2e4b07d9-b924-4cf8-8ac0-9577731ab0dd")
+			(uuid "90c7a771-cf6b-473f-a9d9-1fc20ef5c9ca")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -6245,7 +6245,7 @@
 			(net 2 "Net-(D1-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c4e01789-6be2-4d16-8e66-ff581a1b8b6e")
+			(uuid "e9e7e1a9-0e27-44cf-9929-6566865e302d")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -6266,7 +6266,7 @@
 			(net 20 "/COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "0fe5e121-b397-4ca6-ae5a-7597e5a9c61f")
+			(uuid "ea07ce36-ea47-45ee-b548-9d2d4c1c45c9")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -7580,7 +7580,7 @@
 			(net 16 "Net-(D12-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "57cc6bce-2bde-418e-b1f9-470378caf1b5")
+			(uuid "e09435f4-ea5a-4c58-9bbd-927bcc36172a")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -7601,7 +7601,7 @@
 			(net 23 "/COL4")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "363658b5-d1be-4d69-bc0f-1712a6709897")
+			(uuid "817e95a2-d514-489a-94f2-d96196a972b4")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -9455,7 +9455,7 @@
 			(net 13 "Net-(D10-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "00573ed4-74b7-4baf-a7b6-38b7b5b1ef77")
+			(uuid "ced2ba3d-6d09-4cc8-bbbd-a28a59ba97de")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -9476,7 +9476,7 @@
 			(net 21 "/COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "640ee726-0a4a-4fb1-9d57-8cc8a779f2c9")
+			(uuid "54c013e2-088a-4c13-9074-6cc81ecfe1c0")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -10307,7 +10307,7 @@
 			(net 19 "Net-(D16-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "5e91131f-9005-445b-97e4-f1016bbaca1b")
+			(uuid "d4ef59fe-9eb3-4417-b0b9-14cf1dca1831")
 		)
 		(pad "2" smd roundrect
 			(at -5.918199 5.080002)
@@ -10328,7 +10328,7 @@
 			(net 21 "/COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "38ed9514-bf57-44e2-ad61-a522d972c7de")
+			(uuid "825859ef-920a-420a-a1a7-39ae49241227")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -11480,7 +11480,7 @@
 			(net 19 "Net-(D16-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "69eb34c0-cfec-4dfe-bd7e-9c7783a2686b")
+			(uuid "42e0a51c-4eba-454e-aa91-29c6e1db7424")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.079999 180)
@@ -11501,7 +11501,7 @@
 			(net 22 "/COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "98769488-2f6e-48f6-a900-088d2ca53a8b")
+			(uuid "4892d040-c1a0-4d83-9097-69188a19cb20")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -13187,7 +13187,7 @@
 			(net 4 "Net-(D3-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "87e151c8-0496-48f1-9ee4-afebe39b0d1e")
+			(uuid "d95a1bc9-bf55-4563-8e19-fa39f7a6d4e3")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -13208,7 +13208,7 @@
 			(net 22 "/COL3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "434a0cf3-eebd-4d17-af46-4e47013fe34b")
+			(uuid "7b4d616d-f2db-4965-bac5-b9016f61b89a")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -15098,7 +15098,7 @@
 			(net 8 "Net-(D6-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c83b3f34-8964-4efc-a902-12ebd0cded20")
+			(uuid "74180868-7342-4bd2-8112-aebba611bbdf")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -15119,7 +15119,7 @@
 			(net 21 "/COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3208b7f0-f794-4760-859d-c238c5e3bcc8")
+			(uuid "92f1f648-987b-4fed-8dc5-cf27fd51bc02")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -16229,7 +16229,7 @@
 			(net 5 "Net-(D4-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "5584f260-5548-4487-91b9-060e36aa0cdf")
+			(uuid "b223201d-e7e3-4df6-bd15-c0843923bc8b")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -16250,7 +16250,7 @@
 			(net 23 "/COL4")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "b6f32f53-96ae-4474-b21e-b5ae8057f3d2")
+			(uuid "f587822e-c88f-4ce3-a056-f9b9c800d7ca")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -16988,7 +16988,7 @@
 			(net 12 "Net-(D9-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c64f84a0-046f-475b-9a89-5f1965e159f6")
+			(uuid "24d21ccf-9ab1-4112-b018-66c713a5bc5c")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -17009,7 +17009,7 @@
 			(net 20 "/COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "4b1729b5-9d6f-412b-90ae-280bbc6c4848")
+			(uuid "42cc05d9-295a-4033-a49f-50d581998356")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -19222,7 +19222,7 @@
 			(net 18 "Net-(D14-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "2e630f28-6e77-48d1-8607-9fcd80466cf4")
+			(uuid "c6e928a7-d26a-4c0f-9fa4-da9df84ae985")
 		)
 		(pad "2" smd roundrect
 			(at -5.918199 5.080002 180)
@@ -19243,7 +19243,7 @@
 			(net 21 "/COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "3cb831c5-2d63-41e3-9a7a-db2d0b9c28c7")
+			(uuid "d44a2a42-419f-44b9-ae6b-ce211aede698")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -19981,7 +19981,7 @@
 			(net 3 "Net-(D2-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9e9927ec-aa9a-46ef-be1f-883d62d95922")
+			(uuid "26c6d997-11aa-4f0a-96aa-5841206a57b7")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -20002,7 +20002,7 @@
 			(net 21 "/COL2")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "69bfb1bf-48a5-4fe1-bfad-f7cdf5237f0e")
+			(uuid "2dcd4a23-04bd-4f90-a315-8df29581c158")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
@@ -22468,7 +22468,7 @@
 			(net 7 "Net-(D5-A)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "4ab09d53-aa5f-439c-a8da-206e5db7d8df")
+			(uuid "98098fde-fb2b-4f5d-8009-086258ff33ce")
 		)
 		(pad "2" smd roundrect
 			(at -5.9182 5.08 180)
@@ -22489,7 +22489,7 @@
 			(net 20 "/COL1")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7a87e401-a6e7-42fc-bb9a-8fc3c94634e3")
+			(uuid "113b439b-04b5-4d70-80c1-4571f3943173")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libraries/kicad-lkbd/3dmodels/LKBD_KeySwitch.3dshapes/SW_MX_HotSwap.wrl"
