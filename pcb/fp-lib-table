@@ -11,4 +11,5 @@
   (lib (name "LKBD_PlateMX")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_PlateMX.pretty")(options "")(descr ""))
   (lib (name "LKBD_StabMX")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_StabMX.pretty")(options "")(descr ""))
   (lib (name "LKBD_Connector")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-lkbd/footprints/LKBD_Connector.pretty")(options "")(descr ""))
+  (lib (name "Connector")(type "KiCad")(uri "${KIPRJMOD}/libraries/Connector.pretty")(options "")(descr ""))
 )
