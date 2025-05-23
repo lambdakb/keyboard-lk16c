@@ -3,16 +3,15 @@ kibot:
   version: 1
 
 global:
-  out_dir: output/plate
+  out_dir: output
 
 import:
-  - file: configs/jlcpcb.kibot.yaml
+  - file: libraries/kicad-lkbd/kibot/jlcpcb.kibot.yaml
     outputs: ['jlcpcb_gbr', 'jlcpcb_drl', 'jlcpcb_drl_map', 'jlcpcb_zip']
-  - file: configs/pcbdraw.kibot.yaml
-  - file: configs/3dexport.kibot.yaml
+  - file: libraries/kicad-lkbd/kibot/pcbdraw.kibot.yaml
 
 outputs:
-  - name: case_dxf
+  - name: board_dxf
     comment: Board Outline DXF
     type: dxf
     dir: dxf
