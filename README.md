@@ -28,7 +28,7 @@ The exported schematic is also available under [`output/schematics`](output/sche
 | -------------------------------- | ---------------------- |
 | Base Material                    | FR4                    |
 | Layers                           | 2                      |
-| Dimensions                       |  76.2 mm × 76.2 mm       |
+| Dimensions                       | 76.2 mm × 76.2 mm      |
 | PCB Thickness                    | 1.6 mm                 |
 | PCB Color [^pcb-color]           | Black                  |
 | Silkscreen                       | White                  |
