@@ -39,7 +39,7 @@
         "pads": {
           "drill": 0.0,
           "height": 2.5,
-          "width": 2.55
+          "width": 1.8
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|54737000|102235000|d4ca9f29-b899-41bd-8ba9-fd21520f47d9|2e630f28-6e77-48d1-8607-9fcd80466cf4",
+          "hole_clearance|54775000|102235000|c6e928a7-d26a-4c0f-9fa4-da9df84ae985|592d2f27-cfed-4401-8bc3-69bd7f7cc943",
           ""
         ],
         [
@@ -68,19 +68,23 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|56871699|95249998|e0f47fe0-c9d2-48a3-8d48-3da50a17b9f0|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|56871700|95250000|e0f47fe0-c9d2-48a3-8d48-3da50a17b9f0|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|66953301|95250002|756bf9b8-d6cb-4a8b-a2df-320d270f19cc|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|66953300|95250000|756bf9b8-d6cb-4a8b-a2df-320d270f19cc|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "lib_footprint_mismatch|75921700|95250001|8776e287-8568-4b5c-9100-721fc4a3d074|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|75921700|95250000|8776e287-8568-4b5c-9100-721fc4a3d074|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "solder_mask_bridge|54673500|101282499|d4ca9f29-b899-41bd-8ba9-fd21520f47d9|2e630f28-6e77-48d1-8607-9fcd80466cf4",
+          "lib_footprint_mismatch|94971700|95250000|0eb16839-de65-44e3-96f1-d71ef4726a17|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "solder_mask_bridge|54692500|101282500|592d2f27-cfed-4401-8bc3-69bd7f7cc943|c6e928a7-d26a-4c0f-9fa4-da9df84ae985",
           ""
         ]
       ],
@@ -670,6 +674,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
@@ -677,20 +687,14 @@
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
           "show": true
         },
         {
@@ -701,14 +705,20 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Footprint",
-          "name": "JLC",
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC",
           "show": true
         },
         {
           "group_by": false,
-          "label": "JLCPCB Position Offset",
-          "name": "JLCPosOffset",
+          "label": "JLCPCB Footprint",
+          "name": "JLC",
           "show": true
         },
         {
@@ -719,26 +729,8 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part #",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "label": "JLCPCB Position Offset",
+          "name": "JLCPosOffset",
           "show": true
         },
         {
@@ -757,6 +749,18 @@
           "group_by": false,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         }
       ],
