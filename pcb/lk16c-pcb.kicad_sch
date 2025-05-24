@@ -2432,8 +2432,8 @@
 		(uuid 24a8e296-1a57-41cc-abb5-cf6d1d16185a)
 	)
 	(rectangle
-		(start 205.105 78.105)
-		(end 226.695 81.28)
+		(start 205.105 80.645)
+		(end 226.695 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -2445,7 +2445,7 @@
 	)
 	(rectangle
 		(start 86.36 13.97)
-		(end 191.135 105.41)
+		(end 191.135 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -2456,8 +2456,8 @@
 		(uuid 5851e77d-f8e0-44da-9b5d-42fe9d2f69c9)
 	)
 	(rectangle
-		(start 62.865 102.235)
-		(end 84.455 105.41)
+		(start 62.865 111.125)
+		(end 84.455 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -2468,8 +2468,8 @@
 		(uuid 6af7f3d7-00bb-4b4f-8eab-ee107a923409)
 	)
 	(rectangle
-		(start 192.405 82.55)
-		(end 262.255 105.41)
+		(start 192.405 85.09)
+		(end 262.255 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -2481,7 +2481,7 @@
 	)
 	(rectangle
 		(start 13.97 13.97)
-		(end 84.455 105.41)
+		(end 84.455 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -2493,7 +2493,7 @@
 	)
 	(rectangle
 		(start 227.965 60.96)
-		(end 262.255 81.28)
+		(end 262.255 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -2504,8 +2504,8 @@
 		(uuid 8ae843a7-b621-4040-819f-d80eb15711f0)
 	)
 	(rectangle
-		(start 240.665 78.105)
-		(end 262.255 81.28)
+		(start 240.665 80.645)
+		(end 262.255 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -2516,8 +2516,8 @@
 		(uuid b72a88bf-bfa9-4303-b26c-513718eb66a1)
 	)
 	(rectangle
-		(start 169.545 102.235)
-		(end 191.135 105.41)
+		(start 169.545 111.125)
+		(end 191.135 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -2529,7 +2529,7 @@
 	)
 	(rectangle
 		(start 192.405 60.96)
-		(end 226.695 81.28)
+		(end 226.695 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -2552,8 +2552,8 @@
 		(uuid e3656c3c-dbcf-4d2d-812b-d8f71a5f7c98)
 	)
 	(rectangle
-		(start 240.665 102.235)
-		(end 262.255 105.41)
+		(start 240.665 111.125)
+		(end 262.255 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -2575,7 +2575,7 @@
 	)
 	(text "RGB LED Header"
 		(exclude_from_sim no)
-		(at 215.9 80.01 0)
+		(at 215.9 82.55 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -2585,7 +2585,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 251.46 104.14 0)
+		(at 251.46 113.03 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -2595,7 +2595,7 @@
 	)
 	(text "I2C Header"
 		(exclude_from_sim no)
-		(at 251.46 80.01 0)
+		(at 251.46 82.55 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -2605,7 +2605,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 73.66 104.14 0)
+		(at 73.66 113.03 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -2615,7 +2615,7 @@
 	)
 	(text "Switch Matrix"
 		(exclude_from_sim no)
-		(at 180.34 104.14 0)
+		(at 180.34 113.03 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -2624,208 +2624,232 @@
 		(uuid "fb574b33-7f11-409c-bc69-8d79bcee8f58")
 	)
 	(junction
-		(at 146.05 35.56)
+		(at 146.05 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10aa9cfe-fa85-4853-8bcc-55eb613412ee")
 	)
 	(junction
-		(at 123.19 52.07)
+		(at 123.19 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1831ee5b-ddc8-4b6b-aa40-4aa404adbf6a")
 	)
 	(junction
-		(at 146.05 90.17)
+		(at 146.05 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b00fefd-30cf-4a75-b521-4894efab139d")
 	)
 	(junction
-		(at 123.19 35.56)
+		(at 123.19 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fd7c767-87f0-4d22-bb8d-6e1facfbd17a")
 	)
 	(junction
-		(at 146.05 52.07)
+		(at 146.05 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "251bee1d-c5f8-4ea8-bcc5-a8f3038b44f6")
 	)
 	(junction
-		(at 133.35 40.64)
+		(at 133.35 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3347733f-ef90-47f8-982f-e174e1a633eb")
 	)
 	(junction
-		(at 113.03 57.15)
+		(at 113.03 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34f9b5c1-5338-415e-ac0c-47636022bb34")
 	)
 	(junction
-		(at 133.35 73.66)
+		(at 133.35 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d965da6-6c14-4994-a1d9-baa7917cda77")
 	)
 	(junction
-		(at 133.35 90.17)
+		(at 109.22 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a5150c6-d528-4dac-b679-ae26c9086d43")
+		(uuid "54f5de75-689a-431f-8ee5-4551793f0a1c")
 	)
 	(junction
-		(at 166.37 35.56)
+		(at 166.37 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f2bb89a-68e5-45c1-9271-f495ce1feb53")
 	)
 	(junction
-		(at 156.21 40.64)
+		(at 166.37 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a624706-3ac9-4b90-aa18-0c8963319658")
+	)
+	(junction
+		(at 156.21 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82f4105f-da33-416a-8f5e-e77065b3fbb7")
 	)
 	(junction
-		(at 166.37 52.07)
+		(at 166.37 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8393e8cb-ef64-4dbf-b666-9f02a6c5f457")
 	)
 	(junction
-		(at 113.03 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8faa6314-66f2-407a-807e-b51e72edc13c")
-	)
-	(junction
-		(at 146.05 85.09)
+		(at 146.05 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1bcbad2-b011-4730-a4f8-6779ae5cac63")
 	)
 	(junction
-		(at 166.37 68.58)
+		(at 166.37 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a7d1b726-fe74-4f0c-b460-5ac9f4aae43a")
+		(uuid "a28dd3d5-857e-4e6d-95a4-b4358880f19e")
 	)
 	(junction
-		(at 113.03 40.64)
+		(at 123.19 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5869d2b-c518-48e8-afa6-d8c952f98748")
+	)
+	(junction
+		(at 135.89 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aac07686-7642-4307-9ec0-4e65bdfcbc3d")
+	)
+	(junction
+		(at 113.03 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b1fd6a-3669-4685-b9d7-14ed403b5bdf")
 	)
 	(junction
-		(at 113.03 73.66)
+		(at 113.03 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be41f76b-5f83-46f3-8c9a-dd67911a5e12")
 	)
 	(junction
-		(at 123.19 74.93)
+		(at 123.19 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3f44e3d-47dc-4384-a680-a5a10fe3a9dc")
+		(uuid "c4a1793d-5a40-4d66-9334-4f193b17e13b")
 	)
 	(junction
-		(at 156.21 57.15)
+		(at 156.21 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc765f40-fe26-4e9c-a127-8a6e1be5b35e")
+	)
+	(junction
+		(at 156.21 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5a4bf91-2626-4a85-9067-907548a821ff")
 	)
 	(junction
-		(at 146.05 68.58)
+		(at 146.05 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ead3c069-3d3e-48de-a295-90a1c00e8776")
 	)
 	(junction
-		(at 156.21 73.66)
+		(at 156.21 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed955c70-8c56-45aa-9f01-82065fc7a047")
 	)
 	(junction
-		(at 102.87 35.56)
+		(at 102.87 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0842bf1-605f-4c0d-ad51-6e4a14f528a2")
 	)
 	(junction
-		(at 123.19 68.58)
+		(at 123.19 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f51ea145-53a4-4c6c-8f4a-8385d06af848")
 	)
 	(junction
-		(at 133.35 57.15)
+		(at 99.06 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58a9d6b-3929-46f8-a951-f6e1478f4243")
+	)
+	(junction
+		(at 133.35 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc101e7a-fd06-4df7-a9b7-bd72ac3f1689")
 	)
 	(junction
-		(at 102.87 52.07)
+		(at 102.87 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd038b0f-6c03-4d11-afc3-814808311afc")
 	)
 	(junction
-		(at 102.87 68.58)
+		(at 102.87 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff7ff8f6-6dec-48f9-baf5-fa9edbcbc7d9")
 	)
 	(no_connect
-		(at 72.39 68.58)
+		(at 72.39 71.12)
 		(uuid "398c4229-5e78-473e-9c7b-ac30298c6f06")
 	)
 	(no_connect
-		(at 72.39 83.82)
+		(at 72.39 86.36)
 		(uuid "3f17e1eb-a086-4bbf-a852-e6219e2e1037")
 	)
 	(no_connect
-		(at 72.39 78.74)
+		(at 72.39 81.28)
 		(uuid "5291662d-9827-466b-83db-e7147c75297a")
 	)
 	(no_connect
-		(at 44.45 22.86)
+		(at 44.45 25.4)
 		(uuid "6aba8d67-8fa0-43e1-bc0b-f67ae62008b9")
 	)
 	(no_connect
-		(at 72.39 60.96)
+		(at 72.39 63.5)
 		(uuid "7f1bf7e9-0ecb-4e48-9a7d-48458d6c529d")
 	)
 	(no_connect
-		(at 26.67 38.1)
+		(at 26.67 40.64)
 		(uuid "ad5b9724-600a-451b-a71c-c1656069cb80")
 	)
 	(no_connect
-		(at 72.39 76.2)
+		(at 72.39 78.74)
 		(uuid "b2927628-244c-4c34-a95d-5961ac4610b7")
 	)
 	(no_connect
-		(at 72.39 73.66)
+		(at 72.39 76.2)
 		(uuid "b725f21a-066c-4372-ab18-791116d3b2cc")
 	)
 	(no_connect
-		(at 26.67 40.64)
+		(at 26.67 43.18)
 		(uuid "ba887aa1-4b20-40fd-82fa-2249252f6a8a")
 	)
 	(no_connect
-		(at 72.39 63.5)
+		(at 72.39 66.04)
 		(uuid "c55899e9-c225-42e9-a160-a1be56bde442")
 	)
 	(no_connect
-		(at 72.39 58.42)
+		(at 72.39 60.96)
 		(uuid "dee24798-2c87-4869-aaa4-d1fdd94487ce")
 	)
 	(wire
 		(pts
-			(xy 166.37 22.86) (xy 166.37 35.56)
+			(xy 166.37 27.94) (xy 166.37 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 57.15) (xy 176.53 57.15)
+			(xy 156.21 62.23) (xy 176.53 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2845,17 +2869,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 74.93) (xy 123.19 85.09)
+			(xy 113.03 90.17) (xy 113.03 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09a86484-dc69-463c-870c-7a0789a5f759")
+		(uuid "0816dada-44af-4554-bf7f-28ee93613c75")
 	)
 	(wire
 		(pts
-			(xy 95.25 40.64) (xy 113.03 40.64)
+			(xy 95.25 45.72) (xy 113.03 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +2909,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 76.2) (xy 26.67 76.2)
+			(xy 19.05 78.74) (xy 26.67 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 22.86) (xy 146.05 35.56)
+			(xy 146.05 27.94) (xy 146.05 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 90.17) (xy 146.05 90.17)
+			(xy 109.22 95.25) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 156.21 85.09)
+			(xy 156.21 80.01) (xy 156.21 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2925,23 +2949,13 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 81.28) (xy 26.67 81.28)
+			(xy 19.05 83.82) (xy 26.67 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2090fdcb-4192-44a1-ac88-36ca3e3045b8")
-	)
-	(wire
-		(pts
-			(xy 166.37 68.58) (xy 166.37 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "217f945f-7637-467f-89fd-bdc3194a9a95")
 	)
 	(wire
 		(pts
@@ -2955,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 113.03 73.66)
+			(xy 95.25 78.74) (xy 113.03 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2965,17 +2979,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 90.17) (xy 133.35 90.17)
+			(xy 123.19 95.25) (xy 146.05 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35936e81-c84a-4bd8-bdc5-9889a861e5db")
+		(uuid "30f359c5-e1a6-4fd8-a1c4-b4dbfc1c1523")
 	)
 	(wire
 		(pts
-			(xy 80.01 53.34) (xy 72.39 53.34)
+			(xy 80.01 55.88) (xy 72.39 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2985,7 +2999,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 68.58) (xy 26.67 68.58)
+			(xy 166.37 73.66) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39dbc041-8773-463b-b381-4940ff963acd")
+	)
+	(wire
+		(pts
+			(xy 19.05 71.12) (xy 26.67 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3025,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 90.17) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b0f220-b476-4348-9703-34ca58304730")
+	)
+	(wire
+		(pts
 			(xy 257.81 49.53) (xy 250.19 49.53)
 		)
 		(stroke
@@ -3045,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 52.07) (xy 146.05 68.58)
+			(xy 146.05 57.15) (xy 146.05 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3055,7 +3089,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 72.39 50.8)
+			(xy 80.01 53.34) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3065,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 85.09) (xy 135.89 74.93)
+			(xy 135.89 90.17) (xy 135.89 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3125,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 113.03 90.17)
+			(xy 95.25 95.25) (xy 109.22 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3135,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 48.26) (xy 72.39 48.26)
+			(xy 80.01 50.8) (xy 72.39 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3145,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 53.34) (xy 26.67 53.34)
+			(xy 19.05 55.88) (xy 26.67 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3155,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 68.58) (xy 123.19 74.93)
+			(xy 123.19 73.66) (xy 123.19 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3165,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 68.58) (xy 102.87 85.09)
+			(xy 99.06 73.66) (xy 99.06 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3175,7 +3209,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 73.66) (xy 26.67 73.66)
+			(xy 113.03 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5da089ae-5b9e-4dc5-9f36-449964d0c41b")
+	)
+	(wire
+		(pts
+			(xy 19.05 76.2) (xy 26.67 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3185,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 66.04) (xy 26.67 66.04)
+			(xy 19.05 68.58) (xy 26.67 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3195,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 63.5) (xy 26.67 63.5)
+			(xy 19.05 66.04) (xy 26.67 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3205,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 71.12) (xy 26.67 71.12)
+			(xy 19.05 73.66) (xy 26.67 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3215,7 +3259,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 22.86) (xy 123.19 35.56)
+			(xy 123.19 27.94) (xy 123.19 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3235,7 +3279,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 52.07) (xy 166.37 68.58)
+			(xy 166.37 57.15) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3255,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 52.07) (xy 102.87 68.58)
+			(xy 102.87 57.15) (xy 102.87 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3265,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 57.15) (xy 113.03 57.15)
+			(xy 95.25 62.23) (xy 113.03 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3319,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 55.88) (xy 26.67 55.88)
+			(xy 19.05 58.42) (xy 26.67 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3285,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 40.64) (xy 156.21 40.64)
+			(xy 133.35 45.72) (xy 156.21 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 52.07) (xy 123.19 68.58)
+			(xy 123.19 57.15) (xy 123.19 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3315,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 74.93) (xy 156.21 74.93)
+			(xy 146.05 80.01) (xy 156.21 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3325,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 78.74) (xy 26.67 78.74)
+			(xy 19.05 81.28) (xy 26.67 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3335,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 48.26) (xy 26.67 48.26)
+			(xy 19.05 50.8) (xy 26.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3365,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 57.15) (xy 133.35 57.15)
+			(xy 113.03 62.23) (xy 133.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3385,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 35.56) (xy 166.37 52.07)
+			(xy 166.37 40.64) (xy 166.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3395,7 +3439,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 35.56) (xy 146.05 52.07)
+			(xy 146.05 40.64) (xy 146.05 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3415,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 40.64) (xy 176.53 40.64)
+			(xy 156.21 45.72) (xy 176.53 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3435,7 +3479,17 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 60.96) (xy 26.67 60.96)
+			(xy 99.06 80.01) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb8eaae-f1e0-48a1-b802-a82f3013bed0")
+	)
+	(wire
+		(pts
+			(xy 19.05 63.5) (xy 26.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3445,7 +3499,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 73.66) (xy 133.35 73.66)
+			(xy 113.03 78.74) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3455,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 55.88) (xy 72.39 55.88)
+			(xy 80.01 58.42) (xy 72.39 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3475,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 156.21 73.66)
+			(xy 133.35 78.74) (xy 156.21 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3495,13 +3549,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 68.58) (xy 146.05 74.93)
+			(xy 146.05 73.66) (xy 146.05 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b74c4c6e-98b4-4ce2-b46e-d694652621c6")
+	)
+	(wire
+		(pts
+			(xy 99.06 73.66) (xy 102.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75b0853-191e-4f01-a864-13ab75485554")
 	)
 	(wire
 		(pts
@@ -3525,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 74.93) (xy 123.19 74.93)
+			(xy 135.89 80.01) (xy 123.19 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3565,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 35.56) (xy 123.19 52.07)
+			(xy 123.19 40.64) (xy 123.19 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3575,7 +3639,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 58.42) (xy 26.67 58.42)
+			(xy 19.05 60.96) (xy 26.67 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3595,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 35.56) (xy 102.87 52.07)
+			(xy 102.87 40.64) (xy 102.87 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3679,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 176.53 90.17)
+			(xy 166.37 80.01) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2f9085-5105-413c-9176-75f1b2c575b2")
+	)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 166.37 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3625,7 +3699,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 50.8) (xy 26.67 50.8)
+			(xy 19.05 53.34) (xy 26.67 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3635,13 +3709,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 57.15) (xy 156.21 57.15)
+			(xy 133.35 62.23) (xy 156.21 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e24bce98-e570-4d17-a7a9-bcb12b2aab1f")
+	)
+	(wire
+		(pts
+			(xy 176.53 80.01) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c6898f-87f9-47a0-8556-8e766ca74be2")
 	)
 	(wire
 		(pts
@@ -3655,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 83.82) (xy 26.67 83.82)
+			(xy 19.05 86.36) (xy 26.67 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3665,7 +3749,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 133.35 40.64)
+			(xy 113.03 45.72) (xy 133.35 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3675,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 45.72) (xy 26.67 45.72)
+			(xy 19.05 48.26) (xy 26.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3715,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 73.66) (xy 176.53 73.66)
+			(xy 156.21 78.74) (xy 176.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3735,7 +3819,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 22.86) (xy 102.87 35.56)
+			(xy 102.87 27.94) (xy 102.87 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3744,7 +3828,7 @@
 		(uuid "ff663240-7aae-48b3-8047-52377a7316f3")
 	)
 	(label "COL10"
-		(at 19.05 78.74 0)
+		(at 19.05 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3754,7 +3838,7 @@
 		(uuid "00654e97-7dab-43a0-bc05-9403b217ff1a")
 	)
 	(label "COL11"
-		(at 19.05 81.28 0)
+		(at 19.05 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3764,7 +3848,7 @@
 		(uuid "02355697-d809-435f-9196-2bffbc724a51")
 	)
 	(label "ROW2"
-		(at 19.05 58.42 0)
+		(at 19.05 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3774,7 +3858,7 @@
 		(uuid "0d33be65-152c-4238-9c9f-787b99b032aa")
 	)
 	(label "COL3"
-		(at 146.05 22.86 270)
+		(at 146.05 27.94 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3794,7 +3878,7 @@
 		(uuid "14e5925b-8d9d-4f6d-8526-ef64958f906c")
 	)
 	(label "ROW3"
-		(at 19.05 60.96 0)
+		(at 19.05 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3804,7 +3888,7 @@
 		(uuid "1e032f62-7655-4a25-9643-0c4f62d703fd")
 	)
 	(label "SDA"
-		(at 19.05 50.8 0)
+		(at 19.05 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3874,7 +3958,7 @@
 		(uuid "3c93cfa1-8f4d-4055-b887-47fe8dc20904")
 	)
 	(label "IO1"
-		(at 19.05 48.26 0)
+		(at 19.05 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3884,7 +3968,7 @@
 		(uuid "436f0e70-c03e-4185-9e63-ecac9a7e6cb3")
 	)
 	(label "SCL"
-		(at 19.05 53.34 0)
+		(at 19.05 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3894,7 +3978,7 @@
 		(uuid "452c6cb7-1781-4740-8f91-b6c136821953")
 	)
 	(label "COL2"
-		(at 19.05 68.58 0)
+		(at 19.05 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3904,7 +3988,7 @@
 		(uuid "475fc035-dd19-4611-aa7b-0792c67fc6b6")
 	)
 	(label "ROW3"
-		(at 95.25 73.66 0)
+		(at 95.25 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3914,7 +3998,7 @@
 		(uuid "50f18eaa-2fca-4f36-84dc-55c60672020a")
 	)
 	(label "ROW2"
-		(at 95.25 57.15 0)
+		(at 95.25 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3924,7 +4008,7 @@
 		(uuid "550336b4-216f-4903-931d-5af2285acfa0")
 	)
 	(label "COL4"
-		(at 166.37 22.86 270)
+		(at 166.37 27.94 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,7 +4018,7 @@
 		(uuid "5a85c09a-e51d-436f-b353-72327694027e")
 	)
 	(label "COL2"
-		(at 123.19 22.86 270)
+		(at 123.19 27.94 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3954,7 +4038,7 @@
 		(uuid "6698a151-5465-4276-9781-74c0ceb9cd46")
 	)
 	(label "COL4"
-		(at 19.05 73.66 0)
+		(at 19.05 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3964,7 +4048,7 @@
 		(uuid "67bc0fde-143d-40f8-8568-fb8aa5f56861")
 	)
 	(label "COL12"
-		(at 19.05 83.82 0)
+		(at 19.05 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3974,7 +4058,7 @@
 		(uuid "67f84bb0-63a8-47b6-8d45-d79bffc8d6de")
 	)
 	(label "LED_IO"
-		(at 19.05 45.72 0)
+		(at 19.05 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3994,7 +4078,7 @@
 		(uuid "6ed6f5ec-6088-4e33-9dfd-3d11e1c01aa0")
 	)
 	(label "ROW1"
-		(at 95.25 40.64 0)
+		(at 95.25 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4024,7 +4108,7 @@
 		(uuid "85c5907b-2496-4c72-b3dc-483c67286836")
 	)
 	(label "ROW4"
-		(at 19.05 63.5 0)
+		(at 19.05 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4044,7 +4128,7 @@
 		(uuid "97812f8f-21fc-43b0-93ce-bb4f82b46696")
 	)
 	(label "COL6"
-		(at 80.01 53.34 180)
+		(at 80.01 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4054,7 +4138,7 @@
 		(uuid "98aff1d2-99e6-48e8-b5c9-43cb5342bc9e")
 	)
 	(label "COL3"
-		(at 19.05 71.12 0)
+		(at 19.05 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4074,7 +4158,7 @@
 		(uuid "a64c03f7-7619-4405-ae3f-8f3b3ae393b5")
 	)
 	(label "ROW4"
-		(at 95.25 90.17 0)
+		(at 95.25 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4094,7 +4178,7 @@
 		(uuid "a91de722-09dc-4d62-929b-40511924fcdb")
 	)
 	(label "COL9"
-		(at 19.05 76.2 0)
+		(at 19.05 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4114,7 +4198,7 @@
 		(uuid "b1ea1bdf-aca8-4a5e-8ecf-cac29fae8627")
 	)
 	(label "ROW1"
-		(at 19.05 55.88 0)
+		(at 19.05 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4174,7 +4258,7 @@
 		(uuid "d05769a7-f498-4c38-ae43-fcbd38551f48")
 	)
 	(label "COL5"
-		(at 80.01 55.88 180)
+		(at 80.01 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4234,7 +4318,7 @@
 		(uuid "e50aa205-d0f7-43ac-9033-4e762907b205")
 	)
 	(label "COL1"
-		(at 102.87 22.86 270)
+		(at 102.87 27.94 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4274,7 +4358,7 @@
 		(uuid "f24a4fd1-d9aa-42c1-b1b2-8031c625823b")
 	)
 	(label "COL8"
-		(at 80.01 48.26 180)
+		(at 80.01 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4284,7 +4368,7 @@
 		(uuid "f53db08d-52dd-4d2b-b392-6881271ae53a")
 	)
 	(label "COL7"
-		(at 80.01 50.8 180)
+		(at 80.01 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4294,7 +4378,7 @@
 		(uuid "fa12b571-ea6e-477a-8ac4-e06eac9496a3")
 	)
 	(label "COL1"
-		(at 19.05 66.04 0)
+		(at 19.05 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4532,7 +4616,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 35.56 0)
+		(at 128.27 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4542,7 +4626,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ba30b5d-fd93-450d-b4f4-248b17c64d78")
 		(property "Reference" "SW2"
-			(at 128.27 27.94 0)
+			(at 128.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,7 +4634,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 30.48 0)
+			(at 128.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +4642,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 128.27 30.48 0)
+			(at 128.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +4651,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 30.48 0)
+			(at 128.27 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4660,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 35.56 0)
+			(at 128.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4669,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 128.27 35.56 0)
+			(at 128.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4678,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 128.27 35.56 0)
+			(at 128.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4687,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 128.27 35.56 0)
+			(at 128.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4696,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 128.27 35.56 0)
+			(at 128.27 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,15 +4721,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 133.35 87.63 90)
+		(at 123.19 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "0f2f3a32-8477-4b31-a50e-0e16a397e3f9")
-		(property "Reference" "D14"
-			(at 135.128 86.36 90)
+		(property "Reference" "D15"
+			(at 124.968 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +4738,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 135.128 88.9 90)
+			(at 124.968 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4747,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 133.35 87.63 90)
+			(at 123.19 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 87.63 90)
+			(at 123.19 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4765,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 133.35 87.63 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4774,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 133.35 87.63 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +4783,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 87.63 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +4792,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 133.35 87.63 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +4801,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 133.35 87.63 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4810,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 133.35 87.63 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4819,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 133.35 87.63 0)
+			(at 123.19 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,9 +4834,9 @@
 			(uuid "ce50c887-22ad-48c8-9a06-6d1a533e3d54")
 		)
 		(instances
-			(project "matrix-breakout"
+			(project "lk16c-pcb"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "D14")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -4760,7 +4844,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.03 38.1 90)
+		(at 113.03 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4768,7 +4852,7 @@
 		(dnp no)
 		(uuid "0f702c7d-9890-45ad-a22a-90cd5bada367")
 		(property "Reference" "D1"
-			(at 114.808 36.83 90)
+			(at 114.808 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4777,7 +4861,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 114.808 39.37 90)
+			(at 114.808 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4870,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 113.03 38.1 90)
+			(at 113.03 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 38.1 90)
+			(at 113.03 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +4888,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 113.03 38.1 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4813,7 +4897,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 113.03 38.1 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +4906,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 38.1 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4915,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 113.03 38.1 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +4924,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 113.03 38.1 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +4933,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 113.03 38.1 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4942,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 113.03 38.1 0)
+			(at 113.03 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,8 +5033,75 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 219.71 111.76 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "134317a2-c67e-4ade-8869-f72bc31bf2d9")
+		(property "Reference" "#PWR05"
+			(at 213.36 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 216.916 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf001120-085f-42d0-b8ce-6ad7a2c6e969")
+		)
+		(instances
+			(project "lk16c-pcb"
+				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 171.45 52.07 0)
+		(at 171.45 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4959,7 +5110,7 @@
 		(dnp no)
 		(uuid "165b999b-c5ae-4b93-90c9-81a0bee986b4")
 		(property "Reference" "SW8"
-			(at 171.45 44.45 0)
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +5118,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 171.45 46.99 0)
+			(at 171.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 171.45 46.99 0)
+			(at 171.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 46.99 0)
+			(at 171.45 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +5144,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 171.45 52.07 0)
+			(at 171.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5153,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 171.45 52.07 0)
+			(at 171.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5162,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 171.45 52.07 0)
+			(at 171.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5171,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 171.45 52.07 0)
+			(at 171.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5180,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 171.45 52.07 0)
+			(at 171.45 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +5205,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 171.45 35.56 0)
+		(at 171.45 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5063,7 +5214,7 @@
 		(dnp no)
 		(uuid "1ae020b8-c358-47ba-a3e1-c5b152bc8217")
 		(property "Reference" "SW4"
-			(at 171.45 27.94 0)
+			(at 171.45 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5222,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 171.45 30.48 0)
+			(at 171.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +5230,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 171.45 30.48 0)
+			(at 171.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5239,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 30.48 0)
+			(at 171.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5248,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 171.45 35.56 0)
+			(at 171.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5257,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 171.45 35.56 0)
+			(at 171.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5266,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 171.45 35.56 0)
+			(at 171.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5275,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 171.45 35.56 0)
+			(at 171.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5284,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 171.45 35.56 0)
+			(at 171.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,15 +5309,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 87.63 90)
+		(at 146.05 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "244a8345-8ad3-417d-b7ea-2aca890f924f")
-		(property "Reference" "D16"
-			(at 147.828 86.36 90)
+		(property "Reference" "D17"
+			(at 147.828 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5326,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 147.828 88.9 90)
+			(at 147.828 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5335,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 146.05 87.63 90)
+			(at 146.05 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 87.63 90)
+			(at 146.05 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5353,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5362,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5371,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5380,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5389,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5247,7 +5398,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5256,7 +5407,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5424,7 @@
 		(instances
 			(project "matrix-breakout"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "D16")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -5281,7 +5432,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 236.22 97.79 0)
+		(at 236.22 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5290,15 +5441,6 @@
 		(fields_autoplaced yes)
 		(uuid "24591904-ab0a-4f0a-9808-bff33b943973")
 		(property "Reference" "H4"
-			(at 238.76 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
 			(at 238.76 97.7899 0)
 			(effects
 				(font
@@ -5307,8 +5449,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole_Pad"
+			(at 238.76 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "LKBD_MountingHole:MountingHole_M2"
-			(at 236.22 97.79 0)
+			(at 236.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5468,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 97.79 0)
+			(at 236.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5326,7 +5477,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 236.22 97.79 0)
+			(at 236.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5499,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.03 71.12 90)
+		(at 113.03 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5356,7 +5507,7 @@
 		(dnp no)
 		(uuid "3af28aef-73dc-46fc-9d2e-f1fd22afc45b")
 		(property "Reference" "D9"
-			(at 114.808 69.85 90)
+			(at 114.808 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5516,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 114.808 72.39 90)
+			(at 114.808 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5525,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 113.03 71.12 90)
+			(at 113.03 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5534,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 71.12 90)
+			(at 113.03 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5543,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 113.03 71.12 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5401,7 +5552,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 113.03 71.12 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5410,7 +5561,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 71.12 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5570,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 113.03 71.12 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5579,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 113.03 71.12 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5588,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 113.03 71.12 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5597,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 113.03 71.12 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5622,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 176.53 38.1 90)
+		(at 176.53 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5479,7 +5630,7 @@
 		(dnp no)
 		(uuid "3bd93187-b9e7-4f5e-a398-01af9ed92280")
 		(property "Reference" "D4"
-			(at 178.308 36.83 90)
+			(at 178.308 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5639,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 178.308 39.37 90)
+			(at 178.308 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5648,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 176.53 38.1 90)
+			(at 176.53 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,7 +5657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 38.1 90)
+			(at 176.53 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5515,7 +5666,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 176.53 38.1 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,7 +5675,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 176.53 38.1 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,7 +5684,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 38.1 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5693,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 176.53 38.1 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5702,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 176.53 38.1 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5711,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 176.53 38.1 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5720,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 176.53 38.1 0)
+			(at 176.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5745,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 151.13 68.58 0)
+		(at 151.13 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5603,7 +5754,7 @@
 		(dnp no)
 		(uuid "408f7fc7-a11f-49aa-a94e-77f3317fc339")
 		(property "Reference" "SW11"
-			(at 151.13 60.96 0)
+			(at 151.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5762,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 151.13 63.5 0)
+			(at 151.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5619,7 +5770,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 151.13 63.5 0)
+			(at 151.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,7 +5779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 63.5 0)
+			(at 151.13 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5637,7 +5788,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 151.13 68.58 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5797,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 151.13 68.58 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5655,7 +5806,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 151.13 68.58 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5664,7 +5815,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 151.13 68.58 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5824,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 151.13 68.58 0)
+			(at 151.13 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,34 +5848,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 156.21 38.1 90)
+		(lib_id "Switch:SW_Push")
+		(at 161.29 90.17 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "48d38dcd-a5e9-4266-a5e3-699ce5739a78")
-		(property "Reference" "D3"
-			(at 157.988 36.83 90)
+		(uuid "40964245-8675-4100-a876-3812e8a5acd7")
+		(property "Reference" "SW18"
+			(at 161.29 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 157.988 39.37 90)
+		(property "Value" "SW_Push"
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 156.21 38.1 90)
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
+			(at 161.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5883,112 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 38.1 90)
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD,14.5x5.9mm"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPosOffset" "-0.635,-3.81"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d31e7a2c-087d-495e-8afe-ca4a027d0cc0")
+		)
+		(pin "2"
+			(uuid "f2cdb516-82a9-4fdd-8c4d-9370d6fb03ac")
+		)
+		(instances
+			(project "lk16c-pcb"
+				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 156.21 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48d38dcd-a5e9-4266-a5e3-699ce5739a78")
+		(property "Reference" "D3"
+			(at 157.988 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 157.988 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
+			(at 156.21 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +5997,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 156.21 38.1 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +6006,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 156.21 38.1 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +6015,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 38.1 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +6024,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 156.21 38.1 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +6033,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 156.21 38.1 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +6042,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 156.21 38.1 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +6051,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 156.21 38.1 0)
+			(at 156.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5821,15 +6076,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 151.13 85.09 0)
+		(at 151.13 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "48ff3504-b0a4-42bf-b8be-66d2aca04e08")
-		(property "Reference" "SW16"
-			(at 151.13 77.47 0)
+		(property "Reference" "SW17"
+			(at 151.13 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +6092,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 151.13 80.01 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +6100,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 151.13 80.01 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +6109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 80.01 0)
+			(at 151.13 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +6118,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 151.13 85.09 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,7 +6127,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 151.13 85.09 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5881,7 +6136,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 151.13 85.09 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +6145,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 151.13 85.09 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5899,7 +6154,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 151.13 85.09 0)
+			(at 151.13 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +6171,7 @@
 		(instances
 			(project "lk16c-pcb"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "SW16")
+					(reference "SW17")
 					(unit 1)
 				)
 			)
@@ -5924,7 +6179,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 133.35 38.1 90)
+		(at 133.35 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5932,7 +6187,7 @@
 		(dnp no)
 		(uuid "4dc15c34-f17b-40d8-b06d-e8bf99fc7378")
 		(property "Reference" "D2"
-			(at 135.128 36.83 90)
+			(at 135.128 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +6196,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 135.128 39.37 90)
+			(at 135.128 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,7 +6205,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 133.35 38.1 90)
+			(at 133.35 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5959,7 +6214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 38.1 90)
+			(at 133.35 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,7 +6223,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 133.35 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +6232,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 133.35 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +6241,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6250,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 133.35 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6259,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 133.35 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6268,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 133.35 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +6277,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 133.35 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6378,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 176.53 71.12 90)
+		(at 176.53 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6131,7 +6386,7 @@
 		(dnp no)
 		(uuid "658740e6-bbcf-4e0e-8194-c7fc292a6003")
 		(property "Reference" "D12"
-			(at 178.308 69.85 90)
+			(at 178.308 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6395,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 178.308 72.39 90)
+			(at 178.308 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,7 +6404,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 176.53 71.12 90)
+			(at 176.53 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,7 +6413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 71.12 90)
+			(at 176.53 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6422,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 176.53 71.12 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6176,7 +6431,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 176.53 71.12 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6440,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 71.12 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,7 +6449,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 176.53 71.12 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6458,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 176.53 71.12 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6212,7 +6467,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 176.53 71.12 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6476,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 176.53 71.12 0)
+			(at 176.53 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6501,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 133.35 54.61 90)
+		(at 133.35 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6254,7 +6509,7 @@
 		(dnp no)
 		(uuid "66986598-c7b9-4ddd-94f9-97bc9f1590c4")
 		(property "Reference" "D6"
-			(at 135.128 53.34 90)
+			(at 135.128 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6518,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 135.128 55.88 90)
+			(at 135.128 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6527,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 133.35 54.61 90)
+			(at 133.35 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 54.61 90)
+			(at 133.35 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6545,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 133.35 54.61 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6554,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 133.35 54.61 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +6563,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 54.61 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +6572,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 133.35 54.61 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6581,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 133.35 54.61 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6590,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 133.35 54.61 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6599,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 133.35 54.61 0)
+			(at 133.35 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,17 +6690,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 85.09 0)
+		(at 104.14 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68781302-7fe9-44d5-8723-d1c64dbb03e2")
 		(property "Reference" "SW13"
-			(at 107.95 77.47 0)
+			(at 104.14 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6707,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 80.01 0)
+			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6715,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 107.95 80.01 0)
+			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,7 +6724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 80.01 0)
+			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,7 +6733,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 85.09 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,7 +6742,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 107.95 85.09 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +6751,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 107.95 85.09 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6506,7 +6760,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 107.95 85.09 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6515,7 +6769,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 107.95 85.09 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,16 +6871,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 171.45 85.09 0)
-		(mirror y)
+		(at 171.45 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6c9f2001-2f62-487e-a5e9-1506e3539389")
-		(property "Reference" "SW17"
-			(at 171.45 77.47 0)
+		(property "Reference" "SW19"
+			(at 171.45 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6634,7 +6887,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 171.45 80.01 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6895,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 171.45 80.01 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6904,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 80.01 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6913,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 171.45 85.09 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6922,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 171.45 85.09 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6931,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 171.45 85.09 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6940,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 171.45 85.09 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6949,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 171.45 85.09 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,7 +6966,7 @@
 		(instances
 			(project "matrix-breakout"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "SW17")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -6721,7 +6974,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.03 54.61 90)
+		(at 113.03 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6729,7 +6982,7 @@
 		(dnp no)
 		(uuid "7264186a-68cd-4ebd-8178-173885cbec34")
 		(property "Reference" "D5"
-			(at 114.808 53.34 90)
+			(at 114.808 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6991,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 114.808 55.88 90)
+			(at 114.808 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +7000,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 113.03 54.61 90)
+			(at 113.03 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +7009,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 54.61 90)
+			(at 113.03 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +7018,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +7027,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +7036,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +7045,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +7054,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +7063,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +7072,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 113.03 54.61 0)
+			(at 113.03 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +7097,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 205.74 88.9 0)
+		(at 205.74 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6853,15 +7106,6 @@
 		(fields_autoplaced yes)
 		(uuid "776976d1-bc43-4ca6-8899-38b55eaa98d6")
 		(property "Reference" "H1"
-			(at 208.28 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
 			(at 208.28 88.8999 0)
 			(effects
 				(font
@@ -6870,8 +7114,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole_Pad"
+			(at 208.28 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "LKBD_MountingHole:MountingHole_M2"
-			(at 205.74 88.9 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +7133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 88.9 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +7142,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 205.74 88.9 0)
+			(at 205.74 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6987,7 +7240,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 91.44 270)
+		(at 205.74 93.98 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6996,7 +7249,7 @@
 		(dnp no)
 		(uuid "8183a298-a4c9-46ac-9702-37c9fa30dec6")
 		(property "Reference" "#PWR012"
-			(at 199.39 91.44 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +7258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.946 91.44 90)
+			(at 202.946 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7267,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 91.44 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7276,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 91.44 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7032,7 +7285,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 91.44 0)
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7307,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 156.21 71.12 90)
+		(at 156.21 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7062,7 +7315,7 @@
 		(dnp no)
 		(uuid "85cbf614-a162-4398-8e42-45eb4af15254")
 		(property "Reference" "D11"
-			(at 157.988 69.85 90)
+			(at 157.988 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7324,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 157.988 72.39 90)
+			(at 157.988 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7080,7 +7333,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 156.21 71.12 90)
+			(at 156.21 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7089,7 +7342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 71.12 90)
+			(at 156.21 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7098,7 +7351,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 156.21 71.12 0)
+			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7107,7 +7360,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 156.21 71.12 0)
+			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7369,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 71.12 0)
+			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7378,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 156.21 71.12 0)
+			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7387,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 156.21 71.12 0)
+			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7396,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 156.21 71.12 0)
+			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7405,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 156.21 71.12 0)
+			(at 156.21 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,7 +7430,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 22.86 0)
+		(at 49.53 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7185,7 +7438,7 @@
 		(dnp no)
 		(uuid "8eaa958b-3e6c-4ffc-8e06-f1361d3f3e42")
 		(property "Reference" "#PWR01"
-			(at 49.53 26.67 0)
+			(at 49.53 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7194,7 +7447,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 19.05 0)
+			(at 49.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 22.86 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 22.86 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 22.86 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7242,7 +7495,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 68.58 0)
+		(at 107.95 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7252,7 +7505,7 @@
 		(fields_autoplaced yes)
 		(uuid "9371b6c2-1a92-4d06-8932-bf6e7fdbb1b4")
 		(property "Reference" "SW9"
-			(at 107.95 60.96 0)
+			(at 107.95 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7513,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 63.5 0)
+			(at 107.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7268,7 +7521,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 107.95 63.5 0)
+			(at 107.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 63.5 0)
+			(at 107.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,7 +7539,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 68.58 0)
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,7 +7548,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 107.95 68.58 0)
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7304,7 +7557,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 107.95 68.58 0)
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7313,7 +7566,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 107.95 68.58 0)
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7575,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 107.95 68.58 0)
+			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7600,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 54.61 22.86 0)
+		(at 54.61 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7355,7 +7608,7 @@
 		(dnp no)
 		(uuid "94a2464f-cf36-42b3-a4d0-e254c8c7fef6")
 		(property "Reference" "#PWR03"
-			(at 54.61 26.67 0)
+			(at 54.61 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7617,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 54.61 19.05 0)
+			(at 54.61 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 22.86 0)
+			(at 54.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7381,7 +7634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 22.86 0)
+			(at 54.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 54.61 22.86 0)
+			(at 54.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7665,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 35.56 0)
+		(at 107.95 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7422,7 +7675,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1d6593c-129a-44ab-ac21-01abc88ba352")
 		(property "Reference" "SW1"
-			(at 107.95 27.94 0)
+			(at 107.95 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7683,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 30.48 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +7691,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 107.95 30.48 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7447,7 +7700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 30.48 0)
+			(at 107.95 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7456,7 +7709,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 35.56 0)
+			(at 107.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7718,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 107.95 35.56 0)
+			(at 107.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7727,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 107.95 35.56 0)
+			(at 107.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7736,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 107.95 35.56 0)
+			(at 107.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7492,7 +7745,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 107.95 35.56 0)
+			(at 107.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7770,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 91.44 270)
+		(at 236.22 93.98 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7526,7 +7779,7 @@
 		(dnp no)
 		(uuid "b6dd3812-bdb1-4dbf-8ce6-886b338c9555")
 		(property "Reference" "#PWR013"
-			(at 229.87 91.44 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.426 91.44 90)
+			(at 233.426 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 91.44 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7553,7 +7806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 91.44 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7562,7 +7815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 91.44 0)
+			(at 236.22 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,16 +7837,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 85.09 0)
-		(mirror y)
+		(at 128.27 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "bd8ef3ae-9ece-463b-a418-5598f11507a6")
-		(property "Reference" "SW14"
-			(at 128.27 77.47 0)
+		(property "Reference" "SW15"
+			(at 128.27 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7601,7 +7853,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 80.01 0)
+			(at 128.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7861,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 128.27 80.01 0)
+			(at 128.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 80.01 0)
+			(at 128.27 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7879,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 85.09 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7888,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 128.27 85.09 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7897,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 128.27 85.09 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7906,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 128.27 85.09 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +7915,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 128.27 85.09 0)
+			(at 128.27 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7932,7 @@
 		(instances
 			(project "matrix-breakout"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "SW14")
+					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7940,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 171.45 68.58 0)
+		(at 171.45 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7697,7 +7949,7 @@
 		(dnp no)
 		(uuid "c371886d-7ed8-48f1-b113-40e351514325")
 		(property "Reference" "SW12"
-			(at 171.45 60.96 0)
+			(at 171.45 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7705,7 +7957,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 171.45 63.5 0)
+			(at 171.45 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,7 +7965,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 171.45 63.5 0)
+			(at 171.45 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7722,7 +7974,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 63.5 0)
+			(at 171.45 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +7983,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 171.45 68.58 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,7 +7992,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 171.45 68.58 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +8001,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 171.45 68.58 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +8010,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 171.45 68.58 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +8019,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 171.45 68.58 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,15 +8044,15 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 176.53 87.63 90)
+		(at 166.37 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cb93c0d0-6762-47f1-aa17-fee0384771d1")
-		(property "Reference" "D17"
-			(at 178.308 86.36 90)
+		(property "Reference" "D19"
+			(at 168.148 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,7 +8061,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 178.308 88.9 90)
+			(at 168.148 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,7 +8070,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 176.53 87.63 90)
+			(at 166.37 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,7 +8079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 87.63 90)
+			(at 166.37 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7836,7 +8088,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 176.53 87.63 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,7 +8097,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 176.53 87.63 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7854,7 +8106,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 87.63 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +8115,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 176.53 87.63 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +8124,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 176.53 87.63 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +8133,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 176.53 87.63 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7890,7 +8142,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 176.53 87.63 0)
+			(at 166.37 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7905,9 +8157,9 @@
 			(uuid "2ae74f2f-7ee1-401d-9656-14c884215d1a")
 		)
 		(instances
-			(project "matrix-breakout"
+			(project "lk16c-pcb"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "D17")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -7915,7 +8167,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 52.07 0)
+		(at 128.27 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7925,7 +8177,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd5432c6-3010-4931-b42d-2a653da07d53")
 		(property "Reference" "SW6"
-			(at 128.27 44.45 0)
+			(at 128.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7933,7 +8185,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 46.99 0)
+			(at 128.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,7 +8193,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 128.27 46.99 0)
+			(at 128.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +8202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 46.99 0)
+			(at 128.27 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7959,7 +8211,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 52.07 0)
+			(at 128.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +8220,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 128.27 52.07 0)
+			(at 128.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7977,7 +8229,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 128.27 52.07 0)
+			(at 128.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7986,7 +8238,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 128.27 52.07 0)
+			(at 128.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +8247,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 128.27 52.07 0)
+			(at 128.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8020,7 +8272,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 151.13 35.56 0)
+		(at 151.13 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8029,7 +8281,7 @@
 		(dnp no)
 		(uuid "cda75d21-6302-44a4-bebb-36d8d40adf44")
 		(property "Reference" "SW3"
-			(at 151.13 27.94 0)
+			(at 151.13 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +8289,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 151.13 30.48 0)
+			(at 151.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8045,7 +8297,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 151.13 30.48 0)
+			(at 151.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8054,7 +8306,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 30.48 0)
+			(at 151.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,7 +8315,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 151.13 35.56 0)
+			(at 151.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8072,7 +8324,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 151.13 35.56 0)
+			(at 151.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8333,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 151.13 35.56 0)
+			(at 151.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +8342,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 151.13 35.56 0)
+			(at 151.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8351,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 151.13 35.56 0)
+			(at 151.13 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8190,7 +8442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 100.33 270)
+		(at 205.74 102.87 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8199,7 +8451,7 @@
 		(dnp no)
 		(uuid "d27c454a-a769-4065-ba25-c091d88d7480")
 		(property "Reference" "#PWR011"
-			(at 199.39 100.33 0)
+			(at 199.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +8460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.946 100.33 90)
+			(at 202.946 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,7 +8469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 100.33 0)
+			(at 205.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +8478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 100.33 0)
+			(at 205.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8235,7 +8487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 100.33 0)
+			(at 205.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +8509,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 133.35 71.12 90)
+		(at 133.35 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8265,7 +8517,7 @@
 		(dnp no)
 		(uuid "d46b79bb-2b37-4290-9560-86c687a1eb0e")
 		(property "Reference" "D10"
-			(at 135.128 69.85 90)
+			(at 135.128 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,7 +8526,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 135.128 72.39 90)
+			(at 135.128 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8283,7 +8535,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 133.35 71.12 90)
+			(at 133.35 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +8544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 71.12 90)
+			(at 133.35 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8301,7 +8553,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 133.35 71.12 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +8562,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 133.35 71.12 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8571,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 71.12 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8328,7 +8580,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 133.35 71.12 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8589,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 133.35 71.12 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,7 +8598,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 133.35 71.12 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8355,7 +8607,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 133.35 71.12 0)
+			(at 133.35 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,7 +8703,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 113.03 87.63 90)
+		(at 109.22 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8459,7 +8711,7 @@
 		(dnp no)
 		(uuid "e2377982-c53c-4b0e-8ffd-d0dda73d16cf")
 		(property "Reference" "D13"
-			(at 114.808 86.36 90)
+			(at 110.998 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8468,7 +8720,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 114.808 88.9 90)
+			(at 110.998 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8477,7 +8729,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 113.03 87.63 90)
+			(at 109.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8486,7 +8738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 87.63 90)
+			(at 109.22 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8495,7 +8747,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 113.03 87.63 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,7 +8756,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 113.03 87.63 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +8765,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 87.63 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8774,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 113.03 87.63 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8783,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 113.03 87.63 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8540,7 +8792,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 113.03 87.63 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8549,7 +8801,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 113.03 87.63 0)
+			(at 109.22 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8567,6 +8819,110 @@
 			(project "matrix-breakout"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 118.11 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e31efc93-7a26-4c9e-ad4c-e210e06d2b02")
+		(property "Reference" "SW14"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "SMD,14.5x5.9mm"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPosOffset" "-0.635,-3.81"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCRotOffset" "180"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41430893"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57765ef1-e98d-429a-b6df-da28c8258b0a")
+		)
+		(pin "2"
+			(uuid "36910766-f1be-4bdb-9735-390295368643")
+		)
+		(instances
+			(project "lk16c-pcb"
+				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -8641,7 +8997,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 68.58 0)
+		(at 128.27 73.66 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8651,7 +9007,7 @@
 		(fields_autoplaced yes)
 		(uuid "e56f23a6-3904-4b3a-ba1d-8d2d4ceabc5e")
 		(property "Reference" "SW10"
-			(at 128.27 60.96 0)
+			(at 128.27 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +9015,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 63.5 0)
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,7 +9023,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 128.27 63.5 0)
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8676,7 +9032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 63.5 0)
+			(at 128.27 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8685,7 +9041,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 68.58 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8694,7 +9050,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 128.27 68.58 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +9059,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 128.27 68.58 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8712,7 +9068,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 128.27 68.58 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,7 +9077,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 128.27 68.58 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +9102,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 100.33 270)
+		(at 236.22 102.87 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8755,7 +9111,7 @@
 		(dnp no)
 		(uuid "ee43636f-6992-407b-aa78-aaed276e61b8")
 		(property "Reference" "#PWR014"
-			(at 229.87 100.33 0)
+			(at 229.87 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +9120,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.426 100.33 90)
+			(at 233.426 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +9129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 100.33 0)
+			(at 236.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +9138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 100.33 0)
+			(at 236.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8791,7 +9147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 100.33 0)
+			(at 236.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8890,7 +9246,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 205.74 97.79 0)
+		(at 205.74 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8899,15 +9255,6 @@
 		(fields_autoplaced yes)
 		(uuid "efe421b3-5435-467d-8665-7234a62bbc36")
 		(property "Reference" "H3"
-			(at 208.28 95.2499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
 			(at 208.28 97.7899 0)
 			(effects
 				(font
@@ -8916,8 +9263,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole_Pad"
+			(at 208.28 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "LKBD_MountingHole:MountingHole_M2"
-			(at 205.74 97.79 0)
+			(at 205.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8926,7 +9282,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 97.79 0)
+			(at 205.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8935,7 +9291,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 205.74 97.79 0)
+			(at 205.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8957,7 +9313,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 156.21 54.61 90)
+		(at 156.21 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8965,7 +9321,7 @@
 		(dnp no)
 		(uuid "f3b91b85-b796-419d-89a3-32d419126b22")
 		(property "Reference" "D7"
-			(at 157.988 53.34 90)
+			(at 157.988 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +9330,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 157.988 55.88 90)
+			(at 157.988 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8983,7 +9339,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 156.21 54.61 90)
+			(at 156.21 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8992,7 +9348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 54.61 90)
+			(at 156.21 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9001,7 +9357,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 156.21 54.61 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9010,7 +9366,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 156.21 54.61 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9019,7 +9375,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 54.61 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +9384,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 156.21 54.61 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9037,7 +9393,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 156.21 54.61 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,7 +9402,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 156.21 54.61 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,7 +9411,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 156.21 54.61 0)
+			(at 156.21 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,34 +9435,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 176.53 54.61 90)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 219.71 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "f484538b-1315-49a0-8054-c1f3efd064e6")
-		(property "Reference" "D8"
-			(at 178.308 53.34 90)
+		(fields_autoplaced yes)
+		(uuid "f438237b-dc7d-414e-aea7-1448bae39b99")
+		(property "Reference" "H5"
+			(at 222.25 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 178.308 55.88 90)
+		(property "Value" "MountingHole_Pad"
+			(at 222.25 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
-			(at 176.53 54.61 90)
+		(property "Footprint" "LKBD_MountingHole:MountingHole_M2"
+			(at 219.71 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9472,73 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 54.61 90)
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "510f11ba-a0d6-4b98-9944-8f503c03e6b3")
+		)
+		(instances
+			(project "lk16c-pcb"
+				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 176.53 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f484538b-1315-49a0-8054-c1f3efd064e6")
+		(property "Reference" "D8"
+			(at 178.308 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 178.308 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LKBD_Common:Diode_SMD_SOD-123_inSilk"
+			(at 176.53 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9124,7 +9547,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 176.53 54.61 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9133,7 +9556,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 176.53 54.61 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,7 +9565,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 54.61 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9574,7 @@
 			)
 		)
 		(property "LCSC" "C81598"
-			(at 176.53 54.61 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,7 +9583,7 @@
 			)
 		)
 		(property "JLC" "SOD-123"
-			(at 176.53 54.61 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +9592,7 @@
 			)
 		)
 		(property "JLCPosOffset" ""
-			(at 176.53 54.61 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9178,7 +9601,7 @@
 			)
 		)
 		(property "JLCRotOffset" ""
-			(at 176.53 54.61 0)
+			(at 176.53 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9626,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 236.22 88.9 0)
+		(at 236.22 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9212,15 +9635,6 @@
 		(fields_autoplaced yes)
 		(uuid "f519ad84-7552-4d80-9448-c9af5b5a20ec")
 		(property "Reference" "H2"
-			(at 238.76 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
 			(at 238.76 88.8999 0)
 			(effects
 				(font
@@ -9229,8 +9643,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole_Pad"
+			(at 238.76 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "LKBD_MountingHole:MountingHole_M2"
-			(at 236.22 88.9 0)
+			(at 236.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 88.9 0)
+			(at 236.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,7 +9671,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 236.22 88.9 0)
+			(at 236.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,7 +9693,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 151.13 52.07 0)
+		(at 151.13 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9279,7 +9702,7 @@
 		(dnp no)
 		(uuid "f7450ed7-7111-44bf-a98f-f00c6e8b78e4")
 		(property "Reference" "SW7"
-			(at 151.13 44.45 0)
+			(at 151.13 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9710,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 151.13 46.99 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9718,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 151.13 46.99 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9727,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 46.99 0)
+			(at 151.13 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9736,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 151.13 52.07 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9745,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 151.13 52.07 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9754,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 151.13 52.07 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9763,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 151.13 52.07 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9772,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 151.13 52.07 0)
+			(at 151.13 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9374,7 +9797,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 140.97 85.09 0)
+		(at 140.97 90.17 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9382,8 +9805,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "facdfcde-bef2-4808-9b7a-20f0e02ff52e")
-		(property "Reference" "SW15"
-			(at 140.97 77.47 0)
+		(property "Reference" "SW16"
+			(at 140.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9814,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 140.97 80.01 0)
+			(at 140.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9399,7 +9822,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 140.97 80.01 0)
+			(at 140.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9408,7 +9831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 80.01 0)
+			(at 140.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9417,7 +9840,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 140.97 85.09 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9426,7 +9849,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 140.97 85.09 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9435,7 +9858,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 140.97 85.09 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9444,7 +9867,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 140.97 85.09 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9453,7 +9876,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 140.97 85.09 0)
+			(at 140.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +9893,7 @@
 		(instances
 			(project "matrix-breakout"
 				(path "/76cb4e9e-c848-4f96-8850-cfdf3c15cc6a"
-					(reference "SW15")
+					(reference "SW16")
 					(unit 1)
 				)
 			)
@@ -9478,7 +9901,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 96.52 0)
+		(at 49.53 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9486,7 +9909,7 @@
 		(dnp no)
 		(uuid "fc2523cb-d3d5-4676-9907-2005942677aa")
 		(property "Reference" "#PWR02"
-			(at 49.53 102.87 0)
+			(at 49.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 100.33 0)
+			(at 49.53 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9503,7 +9926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 96.52 0)
+			(at 49.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 96.52 0)
+			(at 49.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 96.52 0)
+			(at 49.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9966,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 52.07 0)
+		(at 107.95 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9553,7 +9976,7 @@
 		(fields_autoplaced yes)
 		(uuid "fec5f4f7-6f96-4001-a7a2-13e34c78b860")
 		(property "Reference" "SW5"
-			(at 107.95 44.45 0)
+			(at 107.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,7 +9984,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 46.99 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9992,7 @@
 			)
 		)
 		(property "Footprint" "LKBD_KeySwitch:SW_MX_Slim_HotSwap_THT_sqSilk"
-			(at 107.95 46.99 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,7 +10001,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 46.99 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9587,7 +10010,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 52.07 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9596,7 +10019,7 @@
 			)
 		)
 		(property "JLC" "SMD,14.5x5.9mm"
-			(at 107.95 52.07 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9605,7 +10028,7 @@
 			)
 		)
 		(property "JLCPosOffset" "-0.635,-3.81"
-			(at 107.95 52.07 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9614,7 +10037,7 @@
 			)
 		)
 		(property "JLCRotOffset" "180"
-			(at 107.95 52.07 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9623,7 +10046,7 @@
 			)
 		)
 		(property "LCSC" "C41430893"
-			(at 107.95 52.07 0)
+			(at 107.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +10071,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 49.53 60.96 0)
+		(at 49.53 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9657,15 +10080,6 @@
 		(fields_autoplaced yes)
 		(uuid "ff9d9911-feed-42be-8938-a8c47ad27131")
 		(property "Reference" "U1"
-			(at 51.6733 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RaspberryPi_Pico"
 			(at 51.6733 97.79 0)
 			(effects
 				(font
@@ -9674,16 +10088,16 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LKBD_MCU:MCU_RaspberryPi_Pico_THT"
-			(at 49.53 107.95 0)
+		(property "Value" "RaspberryPi_Pico"
+			(at 51.6733 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+		(property "Footprint" "LKBD_MCU:MCU_RaspberryPi_Pico_THT"
 			(at 49.53 110.49 0)
 			(effects
 				(font
@@ -9692,8 +10106,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
 			(at 49.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+			(at 49.53 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
