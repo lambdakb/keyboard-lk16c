@@ -19,7 +19,11 @@ plate:
 	mkdir -p ./output/plate
 	$(KIBOT) \
 	    -c ./case/plate/lk16c-plate.kibot.yaml \
-	    -b ./case/plate/lk16c-plate.kicad_pcb \
+	    -b ./case/plate/lk16c-plate_regular.kicad_pcb \
+	    -d output/plate
+	$(KIBOT) \
+	    -c ./case/plate/lk16c-plate.kibot.yaml \
+	    -b ./case/plate/lk16c-plate_2space.kicad_pcb \
 	    -d output/plate
 
 step:
@@ -31,11 +35,15 @@ step:
 	    -d output 3d_step
 	$(KIBOT) \
 	    -c libraries/kicad-lkbd/kibot/3dexport.kibot.yaml \
-	    -b ./case/plate/lk16c-plate.kicad_pcb \
+	    -b ./case/plate/lk16c-plate_regular.kicad_pcb \
+	    -d output 3d_step
+	$(KIBOT) \
+	    -c libraries/kicad-lkbd/kibot/3dexport.kibot.yaml \
+	    -b ./case/plate/lk16c-plate_2space.kicad_pcb \
 	    -d output 3d_step
 
 clean:
 	$(info + [$(NAME)] $@)
-	rm -rf output/pcb output/case output/step
+	rm -rf output/pcb output/plate output/step
 
 .PHONY: default export pcb plate step clean

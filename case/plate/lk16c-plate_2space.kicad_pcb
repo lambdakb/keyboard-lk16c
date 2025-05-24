@@ -1179,29 +1179,28 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "LKBD_PlateMX:Plate_MX_1U"
+	(footprint "LKBD_PlateMX:Plate_MX_2U_2x1U"
 		(layer "F.Cu")
-		(uuid "84dab740-1e15-4e58-834a-d82bb01be9f0")
-		(at 34.925 92.075 180)
-		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
-		(tags "MX Cherry Plate 1U")
-		(property "Reference" "CUT13"
+		(uuid "8f343108-78e0-4c2a-8472-809008c9efe8")
+		(at 82.55 92.075 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (2U or 2 × 1U)")
+		(tags "MX Cherry Plate 2U")
+		(property "Reference" "CUT18"
 			(at 0 -3 180)
-			(layer "B.SilkS")
+			(layer "F.Fab")
 			(hide yes)
-			(uuid "05eeee74-0486-45e1-9391-94d648e09897")
+			(uuid "30029da0-9310-4ccd-bce5-2095ceab97f9")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
-		(property "Value" "Plate_MX_1U"
+		(property "Value" "Plate_MX_2U_2x1U"
 			(at 0 -0.8 180)
 			(layer "F.Fab")
-			(uuid "b2d74e46-a42a-4e21-9486-a1b3e153a1ee")
+			(uuid "17ee2e35-029a-420c-adce-86245ddca8ca")
 			(effects
 				(font
 					(size 1 1)
@@ -1213,7 +1212,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1498225f-47be-4271-8c0d-b50fc51b13de")
+			(uuid "7d55874c-d658-4020-a7ac-1108dfc2d035")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1225,7 @@
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e54f5201-47ce-491b-b1e3-ad6c4cc7e1d4")
+			(uuid "1aa64fbc-b2cf-4f2b-be23-c55cf79c7efb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,104 +1236,374 @@
 		)
 		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_rect
-			(start -9.525 -9.525)
-			(end 9.525 9.525)
+			(start -19.05 -9.525)
+			(end 19.05 9.525)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(fill no)
 			(layer "Dwgs.User")
-			(uuid "1d76f3ce-5343-404c-93ea-a1b8d2c2ede2")
+			(uuid "7b135d73-f2eb-426d-8138-b1851fd210b0")
 		)
 		(fp_line
-			(start 7 -6.5)
-			(end 7 6.5)
+			(start 16.485 -6.585)
+			(end 16.485 6.585)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "44c4b07c-d30f-444c-aaa4-9aa7dc8b6451")
+			(uuid "52f2b123-70e6-489f-bc61-bb4dcbb7f661")
 		)
 		(fp_line
-			(start 6.5 7)
-			(end -6.5 7)
+			(start 15.638 6.985)
+			(end 16.085 6.985)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "52b976ed-dc66-4a24-a13f-e766f5d55d51")
+			(uuid "ced5f9ba-4ea9-473c-ae06-04887743833a")
 		)
 		(fp_line
-			(start -6.5 -7)
-			(end 6.5 -7)
+			(start 15.438 7.185)
+			(end 15.438 8.6)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "42c61af1-8f4b-4f5b-9f0b-188e9efe1be2")
+			(uuid "4baaeb64-6719-4f41-9dcd-dc58e0868d5b")
 		)
 		(fp_line
-			(start -7 6.5)
-			(end -7 -6.5)
+			(start 15.038 9)
+			(end 8.838 9)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "49e1ca23-cf02-4c2e-a900-7808ff0a78e7")
+			(uuid "e29d10ac-0015-4f9f-bfb9-6320d68d63fb")
+		)
+		(fp_line
+			(start 8.438 7.185)
+			(end 8.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4a07c3ca-6157-48aa-9678-330a06cd3e4a")
+		)
+		(fp_line
+			(start 8.238 6.985)
+			(end -8.238 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "de12e625-c8f2-4359-bcba-1c78868dc3db")
+		)
+		(fp_line
+			(start -8.438 7.185)
+			(end -8.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "41c9ac6b-4367-49ba-9deb-da1d321c51e3")
+		)
+		(fp_line
+			(start -15.038 9)
+			(end -8.838 9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea65c38b-ad85-45b4-9fd8-566dfc366eeb")
+		)
+		(fp_line
+			(start -15.438 7.185)
+			(end -15.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bf13678a-8c13-46b2-ac03-c6511f2eb20b")
+		)
+		(fp_line
+			(start -15.638 6.985)
+			(end -16.085 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3270d993-8dcc-4d70-86a4-e8ca8196e334")
+		)
+		(fp_line
+			(start -16.085 -6.985)
+			(end 16.085 -6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "59035d05-1722-4913-8dfb-603270dc1005")
+		)
+		(fp_line
+			(start -16.485 6.585)
+			(end -16.485 -6.585)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "016732e2-610e-41ce-bc61-c5359945ab5a")
 		)
 		(fp_arc
-			(start 7 6.5)
-			(mid 6.853553 6.853553)
-			(end 6.5 7)
+			(start 16.485 6.585)
+			(mid 16.367843 6.867843)
+			(end 16.085 6.985)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c73b3722-fdb4-4619-be55-51402c723019")
+			(uuid "20657fea-f972-425a-89b8-969e8d0ab12b")
 		)
 		(fp_arc
-			(start 6.5 -7)
-			(mid 6.853553 -6.853553)
-			(end 7 -6.5)
+			(start 16.085 -6.985)
+			(mid 16.367843 -6.867843)
+			(end 16.485 -6.585)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "066b7f7b-b174-4407-b1c6-4b3c82692525")
+			(uuid "c3262e35-ab39-4b38-8ba2-6387c1d3726d")
 		)
 		(fp_arc
-			(start -6.5 7)
-			(mid -6.853553 6.853553)
-			(end -7 6.5)
+			(start 15.438 8.6)
+			(mid 15.320843 8.882843)
+			(end 15.038 9)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d91d5a5e-95d2-4e49-8aca-9b0d3e3a96c8")
+			(uuid "cb0de727-8e0a-4c8f-9467-40e833fc9341")
 		)
 		(fp_arc
-			(start -7 -6.5)
-			(mid -6.853553 -6.853553)
-			(end -6.5 -7)
+			(start 15.438 7.185)
+			(mid 15.496579 7.043579)
+			(end 15.638 6.985)
 			(stroke
 				(width 0.05)
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "884a6e3c-35f5-41f2-8c97-52b435e9dbc8")
+			(uuid "86aaf92f-c17b-45c5-82c8-450002cfe8d5")
+		)
+		(fp_arc
+			(start 8.838 9)
+			(mid 8.555157 8.882843)
+			(end 8.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5b7ec5a3-732c-4914-b6e4-1508b4b51912")
+		)
+		(fp_arc
+			(start 8.238 6.985)
+			(mid 8.379421 7.043579)
+			(end 8.438 7.185)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ae23443b-6d51-42de-8dc6-aea457e82dc4")
+		)
+		(fp_arc
+			(start -8.438 8.6)
+			(mid -8.555157 8.882843)
+			(end -8.838 9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5b813e23-653a-4f61-86c8-d6b7b0fc1b34")
+		)
+		(fp_arc
+			(start -8.438 7.185)
+			(mid -8.379421 7.043579)
+			(end -8.238 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e7c643e8-85dd-4d28-a65e-5d97440fe8bc")
+		)
+		(fp_arc
+			(start -15.038 9)
+			(mid -15.320843 8.882843)
+			(end -15.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4b70297d-4983-4848-8307-f69775a9a7a4")
+		)
+		(fp_arc
+			(start -15.638 6.985)
+			(mid -15.49658 7.04358)
+			(end -15.438 7.185)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "26eef2d4-7fbb-4aac-8ecc-15a2550c3f7a")
+		)
+		(fp_arc
+			(start -16.085 6.985)
+			(mid -16.367843 6.867843)
+			(end -16.485 6.585)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5dc438fc-e1ed-4211-bdc7-8fa4a1d9d6c4")
+		)
+		(fp_arc
+			(start -16.485 -6.585)
+			(mid -16.367843 -6.867843)
+			(end -16.085 -6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "251f1251-1a29-4ebf-9006-8448c65abe77")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 5.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "8f4f70f9-126e-4110-8404-2d8cbcaa5328")
+		)
+		(fp_line
+			(start 7 7)
+			(end 5.5 7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "a5420757-f741-496c-8f7d-f7e6519e8cbb")
+		)
+		(fp_line
+			(start 7 -5.5)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "93b254e4-1e6c-4e56-95c9-ae0f889f86ad")
+		)
+		(fp_line
+			(start 5.5 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "8b941f8a-8464-48ea-bbcf-2c6cce3c083d")
+		)
+		(fp_line
+			(start -5.5 7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "764a7b3a-66e7-4f01-9d95-148eda0cc40d")
+		)
+		(fp_line
+			(start -7 5.5)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "8f8396af-416e-4321-9a0b-480cb7a6e649")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -5.5 -7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "17995c3e-7486-45da-ae4d-123c6e75ec40")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 -5.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "c98c32e7-4fba-4e6b-962f-e0e6c17094e0")
+		)
+		(fp_rect
+			(start 8.438 -6)
+			(end 15.438 9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "59f59799-ba99-4417-b3ba-68c9a40b6565")
+		)
+		(fp_rect
+			(start -15.438 -6)
+			(end -8.438 9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "20844774-1814-4466-a322-a7a7cdd5709c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0.8 180)
 			(layer "F.Fab")
-			(uuid "21ff7f70-fb73-4731-a905-fa72cf3bc97b")
+			(uuid "31ad9b6a-491d-493f-9910-557de0cba478")
 			(effects
 				(font
 					(size 1 1)
@@ -2232,10 +2501,10 @@
 	(footprint "LKBD_PlateMX:Plate_MX_2U_2x1U"
 		(layer "F.Cu")
 		(uuid "cdacfae5-dc1d-4388-b395-ad8343a7d7f6")
-		(at 63.5 92.075 180)
+		(at 44.45 92.075 180)
 		(descr "Plate cutout for Cherry MX style keyswitches (2U or 2 × 1U)")
 		(tags "MX Cherry Plate 2U")
-		(property "Reference" "CUT15"
+		(property "Reference" "CUT14"
 			(at 0 -3 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2828,171 +3097,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "LKBD_PlateMX:Plate_MX_1U"
-		(layer "F.Cu")
-		(uuid "e8cbe6bd-a65c-4b31-a412-a56f4053ed4f")
-		(at 92.075 92.075 180)
-		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
-		(tags "MX Cherry Plate 1U")
-		(property "Reference" "CUT17"
-			(at 0 -3 180)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "92e42799-518a-4be2-a85f-febc99b8791f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "Plate_MX_1U"
-			(at 0 -0.8 180)
-			(layer "F.Fab")
-			(uuid "94056762-763b-41e9-8fd8-326e57109ccd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "cf070f4a-e1a0-4f60-8da9-9013d685e0d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f8655ada-a6e5-4388-9736-8fe7d4625271")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
-		(fp_rect
-			(start -9.525 -9.525)
-			(end 9.525 9.525)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "Dwgs.User")
-			(uuid "dc52fd93-a5ab-41b6-8ccc-a81af7b8fb66")
-		)
-		(fp_line
-			(start 7 -6.5)
-			(end 7 6.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "207b2692-9819-45f4-8723-585e8e77e755")
-		)
-		(fp_line
-			(start 6.5 7)
-			(end -6.5 7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "43e6bbdd-9ea6-4cf9-8d65-de321be4ecab")
-		)
-		(fp_line
-			(start -6.5 -7)
-			(end 6.5 -7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "3e83002d-4066-46b1-a787-7e5ef55225d7")
-		)
-		(fp_line
-			(start -7 6.5)
-			(end -7 -6.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "11783e89-c11b-4e2a-b6d2-823f789e65a0")
-		)
-		(fp_arc
-			(start 7 6.5)
-			(mid 6.853553 6.853553)
-			(end 6.5 7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ab867848-2fe2-40d2-b267-bf8c07364beb")
-		)
-		(fp_arc
-			(start 6.5 -7)
-			(mid 6.853553 -6.853553)
-			(end 7 -6.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "2e6d5eff-dce0-4625-8e34-acc859a1300a")
-		)
-		(fp_arc
-			(start -6.5 7)
-			(mid -6.853553 6.853553)
-			(end -7 6.5)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "765298c2-c18f-4092-a27d-29620e18170c")
-		)
-		(fp_arc
-			(start -7 -6.5)
-			(mid -6.853553 -6.853553)
-			(end -6.5 -7)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(layer "Edge.Cuts")
-			(uuid "a160e22a-34a1-43a2-b2e7-63adc7cabb06")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0.8 180)
-			(layer "F.Fab")
-			(uuid "ec762c7f-b3ee-4d08-aefd-e8301d543d68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "ea118922-7a5a-4c6a-a8ff-0858917c360b")
@@ -3110,6 +3214,66 @@
 			(drill 4)
 			(layers "*.Cu" "*.Mask")
 			(uuid "3a8a2b25-73bb-433f-8aeb-87fd837b21ff")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "fadf4baa-a5e8-43c4-aac9-488811ef0ede")
+		(at 63.5 82.55)
+		(property "Reference" "H1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c55ed38-eec3-478e-99b3-54da4ec85daa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "bb5572f0-e12d-426f-ab93-80d5a0aee7cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7df879b-3ef6-4a03-92fc-de5cd7a9ca04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a4a742e-f13b-45e1-812a-c01e2839c3e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "70ff314c-8a90-4d83-8893-09f1950ade0d")
 		)
 		(embedded_fonts no)
 	)
