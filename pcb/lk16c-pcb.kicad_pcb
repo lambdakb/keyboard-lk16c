@@ -2667,7 +2667,7 @@
 	(footprint "LKBD_PCBFab:JLCPCB_2DBarcode_5x5mm"
 		(layer "B.Cu")
 		(uuid "05fffd10-0970-4d8c-9dc5-836172099db5")
-		(at 85.725 80.01 180)
+		(at 85.725 78.74 180)
 		(descr "2D barcode (5 × 5 mm) placeholder for JLCPCB")
 		(tags "JLCPCB 2DBarcode")
 		(property "Reference" "TXT1"
