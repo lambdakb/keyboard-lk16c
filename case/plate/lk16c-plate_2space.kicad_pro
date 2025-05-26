@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.5,
-          "width": 1.8
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -58,56 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_clearance|36195001|100965000|369b733c-da33-4a44-a850-571262e4f951|d649f936-0b71-4a5e-9b8e-f365a8960a3f",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|37821700|95250000|15a9812d-966c-4122-8c47-22395071594f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|47903300|95249999|9bbe898b-9416-4e3a-b015-650a1f1c59bf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|56515000|53481600|db0b768c-3c91-4d22-be06-666c4522bf0a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|56871700|95250000|e0f47fe0-c9d2-48a3-8d48-3da50a17b9f0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|66953300|95250000|756bf9b8-d6cb-4a8b-a2df-320d270f19cc|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|75921700|95250000|8776e287-8568-4b5c-9100-721fc4a3d074|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|86003300|95249999|fd3d507e-5e57-4b31-a05b-34d898ca066d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|94971700|95250000|0eb16839-de65-44e3-96f1-d71ef4726a17|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|35642500|101282500|d649f936-0b71-4a5e-9b8e-f365a8960a3f|a07d86f2-bed9-4b35-bbb0-41b7d39b1e6f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|54692500|101282500|592d2f27-cfed-4401-8bc3-69bd7f7cc943|c6e928a7-d26a-4c0f-9fa4-da9df84ae985",
-          ""
-        ],
-        [
-          "solder_mask_bridge|73742500|101282500|abe591ac-52b6-4a47-90ca-5c97b2fac7e1|42e0a51c-4eba-454e-aa91-29c6e1db7424",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -115,9 +66,9 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -152,13 +103,13 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "ignore",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -510,14 +461,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "LKBD_Connectors",
-      "LKBD_Connector"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "lk16c-pcb.kicad_pro",
+    "filename": "lk16c-plate_2space.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -770,18 +718,6 @@
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -797,28 +733,7 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [
-        {
-          "name": "JLC",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "JLCPosOffset",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "JLCRotOffset",
-          "url": false,
-          "visible": false
-        },
-        {
-          "name": "LCSC",
-          "url": false,
-          "visible": false
-        }
-      ],
+      "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,

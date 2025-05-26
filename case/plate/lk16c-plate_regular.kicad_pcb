@@ -1,0 +1,3261 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(title_block
+		(title "LK16C Plate (Regular)")
+		(date "2025-05-24")
+		(rev "v1.01")
+		(company "LambdaKB.dev")
+		(comment 1 "https://lambdakb.dev/")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "HAL lead-free")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "03a3311e-3d48-421d-a586-6edca6034211")
+		(at 53.975 53.975 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT6"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "01a12044-6a55-4dd9-bc73-73efe94385e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "01946497-7482-4c19-a4d9-6fab28f4ae16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fee7479c-d676-42fb-a6bc-18f7f441ccd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ea10aff-c60e-4764-94c8-0de4966fb1ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "98266f95-5232-4d19-84c5-e3caa8d29a35")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "30dbbc99-c0a1-47d0-98c0-e59178be5f9c")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9a5f6a32-3cd4-4152-97e9-a3ad9648ab30")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3d13e18c-74bc-488b-b3d2-f48ad0ba7a02")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5b8f4754-2d26-45fe-b33f-7db76b8020c0")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2df3bf6a-605a-4607-90f2-21651dd0042f")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9d463b63-cf3f-4a16-bf8f-51457ca4e932")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11845c1a-f023-4ca3-b596-5964414fbeaa")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6140a7e4-9dcd-4d01-bf80-2ee4b152466b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "c5190e69-4ab7-4bf5-b008-c11a834d81b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "2300b7c9-ed7c-4508-8092-c5f74e51f0c9")
+		(at 34.925 34.925 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT1"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7402047f-290d-4b69-9d10-aff0eb554f50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "e473fabe-dd7b-4176-8c6f-4225d7d1f7b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e9bed1dc-8422-415f-9017-12b5e0c78a09")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4bd3133b-c2c0-446e-ae4f-3d24b031cde5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "ee12a9ed-dd2a-485a-9004-9fc2c8a8f718")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "605c5cce-9a32-4780-8dff-d6cca543c261")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5630425-24c0-4cd5-b720-0915d1ea94cb")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b0449dc5-c48e-48bf-b322-244eef387e40")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9a850d9d-e292-4f1a-bc50-8d9942412bdd")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "366aa566-7e41-4f35-bf20-179a31b00f6d")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2cd96598-e32d-4b38-af94-4b1b51d31774")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c68a119a-9581-49ac-8d1b-ec0eb98e1adf")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "54933f0c-8757-4762-8a7a-d1d7d2e26135")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "5ad78544-a08f-40b4-a6c3-5209f3a73f2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "2610558f-44bc-4e43-aa04-e4b4ec3ef370")
+		(at 92.075 53.975 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT8"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e584a34f-654b-47c3-94c0-78406c84da05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "912d266a-1879-4a9f-8a41-1f015acde9cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "437252d5-7140-4b0d-bd42-90f904875fb0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "113084ad-7b8f-409e-833b-b42f4031d650")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "3ec27889-08d6-44b1-972e-824d21c4340a")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "87a67acb-b743-47fe-8b87-a4eae8d32f8e")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ead1a862-1ef8-4985-b116-9ed5c3fd67b0")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "84694749-5c76-4a1f-9f66-8e78c63c210a")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0cae78be-ead1-4e10-b2d4-e17ab387afd2")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fac9f796-c482-4cb0-b3c2-6935464d727e")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ec576eff-4dc5-4b47-ae71-51f1b0b416d2")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2243a97e-abee-4e9f-83e2-c016062f00aa")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9c617909-5f91-4095-a2dd-9c54beb49d38")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "a3a93f6a-848a-406e-a422-b17eb9472763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "2f1a38c7-6b6a-4bbd-87b7-1d88b043223f")
+		(at 39.6875 44.45)
+		(property "Reference" "H1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f7b2811e-2018-45f8-9f51-c8dcdd136bbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f48a58c2-9e7e-43b0-9d12-fce701f80d58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9caff40c-1256-4bf1-a856-d69a7578292c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ed7e0f6-52e7-40cc-9efc-7a8fe28cb067")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "b7608708-3273-4004-b623-f74af9723eec")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "30b3da65-f315-44c2-8fef-35876a0f0144")
+		(at 63.5 82.55)
+		(property "Reference" "H1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d125588e-e590-494d-be25-c4a4bd824a57")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "26144e7f-fc70-43d0-a2b6-d12ab537fc3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9138621-8b00-4f67-a44c-385eeb4e1ac9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aad76a52-a2ef-4155-8f2e-e6398acc5663")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "5ff24704-8b2c-44e0-aef2-807a77a99a0f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "5fb0d2e1-fecf-44a6-ac34-000b193efa1d")
+		(at 92.075 34.925 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT4"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5d969a3f-d02f-41c7-bde9-6f6e858dd6d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "15f0f00d-0970-4d03-8e79-1a9b56c28475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40a38c4e-911b-4931-914e-0cb9e0349c94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f05d36e-7db8-4f26-8c8e-5a2fed907f0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "c4b58c94-5d7e-410e-9c77-5c0da2f37809")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b3afb6db-2f3d-4217-a23e-8cb7b4a9dd42")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cddd6c59-47ff-46dd-ad2a-66ffd63f5494")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "69a1e124-69eb-4ec0-9aeb-b9a242b51a3c")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c1d5ad50-3835-4be3-9010-91e6fb4b5bf0")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea5aff06-b5fa-44bd-9055-17394dc33856")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a1f67439-40a7-44cb-bdbb-443738a68d6e")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ef9b49ad-5777-4503-a89a-2457fec44eae")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bae7f890-b718-4041-b354-84da98eb59c0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "971a40f2-8c09-45ca-9f39-c8c55d6241f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "7040d14f-8ab1-414b-975c-0847167e1c9a")
+		(at 73.025 53.975 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT7"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "38685545-6aba-4b19-8b98-890ca1082b1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "6fb4cbfe-2b74-4398-a457-4ad1b07facc8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2140b127-3730-41a4-b9be-7deafed555f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f909f749-a218-4d7d-9e54-e82327c6d17d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "e63a0449-06d3-476b-adb9-6b565d18bf7d")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f1725842-7c5e-4545-b447-5b9a265b8883")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6b226560-1d61-4a8f-ae68-9f31828e0287")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6933bda3-5eb7-4f88-adfd-862b5cb5311a")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "81914b52-eb42-4799-9e10-a4375382e84b")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0540b42d-550a-4624-876b-bef066b74797")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5fe59ef6-407a-499a-9a7c-45f22cf3d2f3")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "059194a4-54af-4177-8008-a1928472a532")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "64d7a2f4-492e-43e9-8c81-6d4f0c0e0d44")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "bea6a22b-9a7a-4c40-94ea-be323ca5b47f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "7e60a933-b7ea-4b96-8211-5c8936ad265b")
+		(at 53.975 73.025 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT10"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f1edcd75-f729-4516-a07d-d5936c23b2e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "8d095622-01a7-4c27-9adf-00fe8e1810fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d7f1530a-049e-424d-9326-8fc3949e7c54")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "26ca1bdb-4345-4e61-9ab5-306bdc2b65e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "30a6901b-cba1-4db8-8128-07f54acb7950")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "445745a5-8a42-48dd-a0a1-b828b046f586")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0cbabe62-fa40-4aee-ad66-3ab4d5f2479c")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "be45ad5e-6ac0-4d94-82a9-6e32f4db6cf7")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "feff2c03-0e63-4823-a8f2-83f6fdec625c")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5357801e-0b68-4489-a7be-6ce88d60afb4")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6f28b0e9-6d9b-4d8f-9458-717579b1ded6")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "600bd5ca-4f15-40ae-b862-abc890a3f9a3")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1ee8cd00-fdd5-4984-b19d-ff1b08e565f1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "95a638bf-9ddc-4d85-8e03-3bb2a9a32a5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "84dab740-1e15-4e58-834a-d82bb01be9f0")
+		(at 34.925 92.075 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT13"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "05eeee74-0486-45e1-9391-94d648e09897")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "b2d74e46-a42a-4e21-9486-a1b3e153a1ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1498225f-47be-4271-8c0d-b50fc51b13de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e54f5201-47ce-491b-b1e3-ad6c4cc7e1d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "1d76f3ce-5343-404c-93ea-a1b8d2c2ede2")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "44c4b07c-d30f-444c-aaa4-9aa7dc8b6451")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "52b976ed-dc66-4a24-a13f-e766f5d55d51")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "42c61af1-8f4b-4f5b-9f0b-188e9efe1be2")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "49e1ca23-cf02-4c2e-a900-7808ff0a78e7")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c73b3722-fdb4-4619-be55-51402c723019")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "066b7f7b-b174-4407-b1c6-4b3c82692525")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d91d5a5e-95d2-4e49-8aca-9b0d3e3a96c8")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "884a6e3c-35f5-41f2-8c97-52b435e9dbc8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "21ff7f70-fb73-4731-a905-fa72cf3bc97b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "927ef50d-5550-4d55-9c29-83409dc2caa6")
+		(at 53.975 34.925 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT2"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3daa0d77-713f-4fb1-8412-7e5d3c00d7df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "9e51c6f5-d5f8-4b86-846a-4c68eff85ef1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "90b296f9-d8a7-45e0-b5db-0ba9d8588c5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "31819283-fc39-4388-a8b0-1806d4c3f439")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "8b33544d-792e-4922-b58d-0039f39096ca")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5fbb2d69-57d3-4a71-81ac-58bb5e8f2058")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3e6e5da2-6677-4a5f-925f-ab9545072e37")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4ffbee00-9c9f-46ed-8f24-b4a9d49ddc0c")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ec6ea318-14b2-4962-9cf5-f02e89fc2213")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f627bf27-88cd-4dc6-9b34-79f61542791c")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "deadfc5e-d9f6-471a-a220-2b20b86da408")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "07527375-b87b-4c5b-ba81-daf8eae74a2f")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1b3af6e7-7457-4e5c-b916-f840147be754")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "7464a350-84c2-4ca6-aff6-b058f948ae9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "a02f8c13-73f4-4f5b-afe4-0e82f3f83701")
+		(at 92.075 73.025 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT12"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "43443923-8060-46fb-ae85-3b26be11b67d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "4a60af28-3512-4759-b6a2-d016cd4a15cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fd4fedf6-fbc7-4474-9965-d60290c3897c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "38ac31cd-4d44-4b9a-9bda-436a7e21d82d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "a5aba0be-1bb4-425b-81d3-86ca617f5aae")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2eadb75c-a51c-4f39-b2f5-fab3249c002d")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "df07e7b2-dac9-4a50-a89b-e1530b3a8e9b")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5499e75a-91d4-44f8-8205-29c93615e7c0")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "28c82e85-9cd4-4f1f-8e84-423089086f2e")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2ccbb6ab-20bb-4646-b7ab-de575abd9a9b")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8f66ab5b-7a5d-41a4-869c-63fae80b918d")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "615571cb-1292-49e9-848a-d260ff2cb48f")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "edf6949c-aae8-42d3-ba42-125f34d6fb6a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "66b723f5-cc61-44da-b098-1fd5461eba48")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "a189a375-b61a-4fd1-9617-e51bd02792cf")
+		(at 34.925 53.975 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT5"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e6b3f405-1109-4203-bff0-21847270d971")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "32e15b25-9987-449b-9444-cc5f96f42e9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5cd450b5-84e2-4e78-8205-3a505fdd7256")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3069f4d3-6a95-421b-9513-a3d67f324027")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "471de92b-8c5b-4886-a8e3-bb5dc1985185")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "27eadd59-6531-4225-bbdd-90ba9952bb8a")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1ce02274-3e30-4722-8310-04f4bc1f3c07")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "224d50f4-0218-48e7-9d99-58edd4513764")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1710ef0a-4c66-47ad-b56a-1d9ce5a6ed09")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8ccc3267-88cf-4fbd-9d1e-2b77e0b8a2b9")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3ce7fc2b-d8c6-401b-9fa4-b39612168ea5")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "998d0eb8-c6f9-490b-9237-f57dbcd8950a")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "142df185-c0e9-4194-8a3d-93cdee5ebfaa")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "458a7ac7-b680-4d7b-b583-18fab5a7f141")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "aa6ffc85-d8fb-41b8-899d-a7aab3ae617d")
+		(at 34.925 73.025 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT9"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "de0eb2bf-2611-4552-82ab-b9db1e6f504f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "03cae2d8-a842-43a3-a5a4-a56882adbdd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ef91efb-4c46-4578-ae14-9caaabb8a8e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f03ac65f-3c20-4b81-b26b-d4d00044fed8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "00ee5f84-44f3-42a0-a12e-292d2d9d3438")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8e926638-7770-4dc9-acb6-db7968269a91")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d06f42f6-0d4d-4cfe-90f5-3991cb187644")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d629fb62-0308-4fc8-8a4f-18c3d1c45bce")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c16a6f65-aad7-4649-8b80-0a0f8d219fc5")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3f68979c-b481-4cd3-9ed8-1cdcd4838c6c")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cb334689-4965-4408-84ee-42f2f398759c")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a5b3b397-4b85-44a1-b1e6-7fa201606159")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "33d132e2-7169-4cfe-ab66-42abcb0a2011")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "550f512e-f240-407c-bc47-ec7676c6eb9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ae3714c5-d118-4722-b911-c7838e334533")
+		(at 39.6875 82.55)
+		(property "Reference" "H1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ec26fa97-dedc-4d5b-943c-345cd86b079d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a892b65c-c8a4-4bbc-bf9b-7b23585afe51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "722a2f0e-4656-48e4-8ce5-c84e74c0d264")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95a65ded-44c9-4469-905e-5a05b1155aca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "65c077b1-07cf-4c5d-b555-330b12b9cc48")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "b44e9daf-4ff1-45b9-875c-0164ce66070e")
+		(at 73.025 73.025 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT11"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "cf023e81-df90-4e83-80d3-b53e93135245")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "eb0818cd-09ca-4505-923a-b120c495589f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0dbe6777-9f34-422f-91c8-a11eac942826")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "76fc56ad-0dcf-4636-b727-5fbde6abb93d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "f2276024-3037-4592-9c70-9cc9220381a8")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "52ebdf65-f280-416f-8a30-317e882db8c8")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5f53fcf-c2bf-47f3-ac9f-7db7b15c4b11")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "57ee16f9-6e6f-4051-95f6-e2c56ac02d87")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "beea38a5-618e-4d31-9e4d-a46bfa849b38")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39e54aa6-0c7c-4435-8f85-961511211dc7")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c0dd1538-3250-44fa-8388-391a4441bd81")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d5b3eb5c-2daa-424f-b974-4de77c4fda28")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "27bae8d6-22cd-4e59-8bf3-5f2e1b173311")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "e34ef379-a804-424b-bc03-de5b1883c012")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_2U_2x1U"
+		(layer "F.Cu")
+		(uuid "cdacfae5-dc1d-4388-b395-ad8343a7d7f6")
+		(at 63.5 92.075 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (2U or 2 × 1U)")
+		(tags "MX Cherry Plate 2U")
+		(property "Reference" "CUT16"
+			(at 0 -3 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a93da1fc-7f8d-4b38-8c21-a5892d7e50ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Plate_MX_2U_2x1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "3802f6a2-1cbf-428c-9ca5-25a70ce492d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "08aa1844-6a77-44a1-b0b9-8f83a6b6cac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df7a9261-d473-44ab-81f9-d1dfe879d39a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -19.05 -9.525)
+			(end 19.05 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "0df326f0-848d-4c6b-bf49-3afb1aa0c8fa")
+		)
+		(fp_line
+			(start 16.485 -6.585)
+			(end 16.485 6.585)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "969b120d-0f7d-46e5-96e0-9cd2adc8a6c2")
+		)
+		(fp_line
+			(start 15.638 6.985)
+			(end 16.085 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8a41a3b5-7ddf-4017-9a19-83f54a4b190e")
+		)
+		(fp_line
+			(start 15.438 7.185)
+			(end 15.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "73dc8200-8c0e-4a8d-84a3-463d4ce9f279")
+		)
+		(fp_line
+			(start 15.038 9)
+			(end 8.838 9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dbf64723-dfc6-49fc-bb78-875402a10123")
+		)
+		(fp_line
+			(start 8.438 7.185)
+			(end 8.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "08cf1b84-aa6c-4b0e-9762-f8a5d925b30e")
+		)
+		(fp_line
+			(start 8.238 6.985)
+			(end -8.238 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0f93af3b-7b18-40d7-b31b-9e3712119d6d")
+		)
+		(fp_line
+			(start -8.438 7.185)
+			(end -8.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "94cea12c-c682-4ce1-aafe-494d0bee2c08")
+		)
+		(fp_line
+			(start -15.038 9)
+			(end -8.838 9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "71edf04a-ebbe-4c8d-96e6-ca39749c85f7")
+		)
+		(fp_line
+			(start -15.438 7.185)
+			(end -15.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "62702378-2188-41d7-905a-9b220f2c8cca")
+		)
+		(fp_line
+			(start -15.638 6.985)
+			(end -16.085 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b96d93af-66c1-4604-bafd-bf8974a54694")
+		)
+		(fp_line
+			(start -16.085 -6.985)
+			(end 16.085 -6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "75cd78df-fec5-4e5e-856c-1163ed426ef8")
+		)
+		(fp_line
+			(start -16.485 6.585)
+			(end -16.485 -6.585)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "388bd65b-ffcd-4a1f-9c96-09d7079029e2")
+		)
+		(fp_arc
+			(start 16.485 6.585)
+			(mid 16.367843 6.867843)
+			(end 16.085 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "730416aa-9740-4b2c-b804-4bd1eaa09db4")
+		)
+		(fp_arc
+			(start 16.085 -6.985)
+			(mid 16.367843 -6.867843)
+			(end 16.485 -6.585)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "10097cbf-4a13-4688-83f8-4fabf1935fa8")
+		)
+		(fp_arc
+			(start 15.438 8.6)
+			(mid 15.320843 8.882843)
+			(end 15.038 9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6da5a745-0f00-4897-af44-295455d8a46c")
+		)
+		(fp_arc
+			(start 15.438 7.185)
+			(mid 15.496579 7.043579)
+			(end 15.638 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6ea7b4f1-ddae-4fcf-b36b-304ced1851a4")
+		)
+		(fp_arc
+			(start 8.838 9)
+			(mid 8.555157 8.882843)
+			(end 8.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3d9006f7-d72e-462a-a67d-159184e1f3fb")
+		)
+		(fp_arc
+			(start 8.238 6.985)
+			(mid 8.379421 7.043579)
+			(end 8.438 7.185)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1832d11f-7a48-4610-9043-0644f1f9d3aa")
+		)
+		(fp_arc
+			(start -8.438 8.6)
+			(mid -8.555157 8.882843)
+			(end -8.838 9)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39505099-bf44-4c74-a6a2-68c9c4b695c3")
+		)
+		(fp_arc
+			(start -8.438 7.185)
+			(mid -8.379421 7.043579)
+			(end -8.238 6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6140a491-2d7c-4695-96ac-4d20f0200177")
+		)
+		(fp_arc
+			(start -15.038 9)
+			(mid -15.320843 8.882843)
+			(end -15.438 8.6)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ff9e6a1f-d2a2-418a-9286-ad26a5051c56")
+		)
+		(fp_arc
+			(start -15.638 6.985)
+			(mid -15.49658 7.04358)
+			(end -15.438 7.185)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7c282dc6-fdf3-406e-9460-18a6dc3cb42b")
+		)
+		(fp_arc
+			(start -16.085 6.985)
+			(mid -16.367843 6.867843)
+			(end -16.485 6.585)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "96ad9964-78ff-4d96-b962-5caf81a8f4a7")
+		)
+		(fp_arc
+			(start -16.485 -6.585)
+			(mid -16.367843 -6.867843)
+			(end -16.085 -6.985)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "89b47542-588b-44f3-87dd-71b88ef89701")
+		)
+		(fp_line
+			(start 7 7)
+			(end 7 5.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "36051aa3-470e-4bbb-97e5-d77d089bc45d")
+		)
+		(fp_line
+			(start 7 7)
+			(end 5.5 7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "f420ffab-8c87-48cb-be9b-b090d72f0067")
+		)
+		(fp_line
+			(start 7 -5.5)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "c32745b9-0132-4e6f-bebb-ddc23d9533ba")
+		)
+		(fp_line
+			(start 5.5 -7)
+			(end 7 -7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "2dbfa554-f4d5-4c1c-93cc-bf7144cb407c")
+		)
+		(fp_line
+			(start -5.5 7)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "5f43ae17-4b57-4913-9a2a-3dfd4a679d91")
+		)
+		(fp_line
+			(start -7 5.5)
+			(end -7 7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "e5763ad1-89e4-4626-862f-6fbfff368afe")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -5.5 -7)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "f91c2bdd-a076-42de-bc01-ee1620c87cff")
+		)
+		(fp_line
+			(start -7 -7)
+			(end -7 -5.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "aead4758-8949-465d-ab1d-d5a8237bdd3d")
+		)
+		(fp_rect
+			(start 8.438 -6)
+			(end 15.438 9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3163742f-637f-4fc3-8012-deeac3f85a18")
+		)
+		(fp_rect
+			(start -15.438 -6)
+			(end -8.438 9)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "bd422f06-6a31-4bab-ab21-89a9bf043fe2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "c149cddd-ec7a-4614-951a-63399a7a19b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "d9945123-04c4-449f-98cc-218a93a0042d")
+		(at 73.025 34.925 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT3"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b6063999-dfdd-44f3-b4dc-a8cdaabd3f03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "cd7ae9f4-6cd2-4366-b830-4515fecaf903")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3390d11-3b94-437d-b106-ca50fc74be01")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "398f837f-ce2e-43b0-838b-006e9fe0d1b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "1e7bbbb7-7d6f-4398-9e7d-6764b77b9be0")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "750d45a6-4c20-4ea5-92d5-53ee5610579a")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d66d8444-d72d-4fc6-bd80-296788179fc2")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "325047f1-b520-4a19-ae47-f4dba0180416")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b043f436-52e6-448d-a23f-70afea635dba")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2f70c9fa-d393-48fa-8e4e-7dae2eab4120")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "eee3dfc5-ba4f-4a37-98a9-5836594047f6")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2b809d26-d471-4861-801f-5da995e23f3d")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b94a3161-f012-4fac-9fb8-a9355a403ec1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "2f5812df-4eb2-4d23-8ae8-f314741a0711")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "LKBD_PlateMX:Plate_MX_1U"
+		(layer "F.Cu")
+		(uuid "e8cbe6bd-a65c-4b31-a412-a56f4053ed4f")
+		(at 92.075 92.075 180)
+		(descr "Plate cutout for Cherry MX style keyswitches (1U)")
+		(tags "MX Cherry Plate 1U")
+		(property "Reference" "CUT17"
+			(at 0 -3 180)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "92e42799-518a-4be2-a85f-febc99b8791f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "Plate_MX_1U"
+			(at 0 -0.8 180)
+			(layer "F.Fab")
+			(uuid "94056762-763b-41e9-8fd8-326e57109ccd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf070f4a-e1a0-4f60-8da9-9013d685e0d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f8655ada-a6e5-4388-9736-8fe7d4625271")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "dc52fd93-a5ab-41b6-8ccc-a81af7b8fb66")
+		)
+		(fp_line
+			(start 7 -6.5)
+			(end 7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "207b2692-9819-45f4-8723-585e8e77e755")
+		)
+		(fp_line
+			(start 6.5 7)
+			(end -6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "43e6bbdd-9ea6-4cf9-8d65-de321be4ecab")
+		)
+		(fp_line
+			(start -6.5 -7)
+			(end 6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3e83002d-4066-46b1-a787-7e5ef55225d7")
+		)
+		(fp_line
+			(start -7 6.5)
+			(end -7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "11783e89-c11b-4e2a-b6d2-823f789e65a0")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ab867848-2fe2-40d2-b267-bf8c07364beb")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2e6d5eff-dce0-4625-8e34-acc859a1300a")
+		)
+		(fp_arc
+			(start -6.5 7)
+			(mid -6.853553 6.853553)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "765298c2-c18f-4092-a27d-29620e18170c")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a160e22a-34a1-43a2-b2e7-63adc7cabb06")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0.8 180)
+			(layer "F.Fab")
+			(uuid "ec762c7f-b3ee-4d08-aefd-e8301d543d68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ea118922-7a5a-4c6a-a8ff-0858917c360b")
+		(at 87.63 82.55)
+		(property "Reference" "H1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "363dfed5-1ef7-4cc3-9ace-f9a1890cd583")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "64c09b14-ec2c-44b8-ae4d-5dd929ce0431")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "736fb80f-b029-423c-83e9-1f015615a0f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fafdf62-81b2-4f41-887b-06d62c30a7b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "8f3ebf61-4c8c-48c2-bd2d-db52adf9054c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint ""
+		(layer "F.Cu")
+		(uuid "ee8b60f6-1e99-4b3a-b70a-9592719f6c96")
+		(at 87.3125 44.45)
+		(property "Reference" "H1"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4c2288c-70ab-4215-a830-5f4d51b5a960")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b96052b5-60b5-4c7d-8888-f81d02bbb9a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1459222b-6f0e-4668-b9f5-0e58bc4a680e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2044001f-9ae6-41b7-b94e-92ffceb416be")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 4 4)
+			(drill 4)
+			(layers "*.Cu" "*.Mask")
+			(uuid "3a8a2b25-73bb-433f-8aeb-87fd837b21ff")
+		)
+		(embedded_fonts no)
+	)
+	(gr_arc
+		(start 101.6 100.6)
+		(mid 101.307107 101.307107)
+		(end 100.6 101.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0fa88a65-ad5e-40d1-9bdf-fe6e9b735805")
+	)
+	(gr_line
+		(start 25.4 100.6)
+		(end 25.4 26.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "11262ded-4a51-46f1-8d0b-b9e50433fc1d")
+	)
+	(gr_line
+		(start 101.6 100.6)
+		(end 101.6 26.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1453b983-5ecb-44d8-92fc-60e1e1bcadac")
+	)
+	(gr_line
+		(start 26.4 25.4)
+		(end 100.6 25.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2a29eb17-775e-43cb-b540-b9a4fb583bef")
+	)
+	(gr_arc
+		(start 26.4 101.6)
+		(mid 25.692893 101.307107)
+		(end 25.4 100.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b139ae32-17f6-47f0-9bba-571ea87a3d11")
+	)
+	(gr_arc
+		(start 25.4 26.4)
+		(mid 25.692893 25.692893)
+		(end 26.4 25.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c1cbc2c7-2797-4f65-9b50-10cfedaf3e59")
+	)
+	(gr_line
+		(start 100.6 101.6)
+		(end 26.4 101.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ee94d07b-717f-4e24-bc78-a3f1cce8967d")
+	)
+	(gr_arc
+		(start 100.6 25.4)
+		(mid 101.307107 25.692893)
+		(end 101.6 26.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f6fb0905-76d7-4ffd-8428-2abe0d9948c0")
+	)
+	(embedded_fonts no)
+)
