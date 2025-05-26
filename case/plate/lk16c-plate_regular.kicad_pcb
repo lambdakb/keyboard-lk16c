@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "LK16C Plate")
-		(date "2025-05-14")
-		(rev "v1.00")
+		(title "LK16C Plate (Regular)")
+		(date "2025-05-24")
+		(rev "v1.01")
 		(company "LambdaKB.dev")
 		(comment 1 "https://lambdakb.dev/")
 	)

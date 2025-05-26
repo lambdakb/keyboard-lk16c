@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LK16C")
-		(date "2025-05-13")
-		(rev "v1.00")
+		(date "2025-05-24")
+		(rev "v1.01")
 		(company "LambdaKB.dev")
 		(comment 1 "https://lambdakb.dev/")
 	)
